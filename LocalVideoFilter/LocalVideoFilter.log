@@ -1,0 +1,87 @@
+14:45:44.578 index.js:23788 2023-11-03T19:45:44.578Z debug [LocalVideoTrack #2: e6de140c-1050-4f87-9663-f0a36b38eb75] Dimensions: {width: 1280, height: 720}
+14:45:44.578 index.js:23788 2023-11-03T19:45:44.578Z debug [LocalVideoTrack #2: e6de140c-1050-4f87-9663-f0a36b38eb75] Started
+14:45:47.312 index.js:23788 2023-11-03T19:45:47.312Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+14:45:47.727 index.js:23788 2023-11-03T19:45:47.727Z info [Room #1: RM25ce59bc943bc8f83158d926180c722a] Disconnecting
+14:45:47.728 index.js:23788 2023-11-03T19:45:47.728Z debug [LocalParticipant #1: PAb21237f919ab0becac55ced9908e65e3] Transitioned to state: disconnected
+14:45:47.728 index.js:23788 2023-11-03T19:45:47.728Z debug [LocalParticipant #1: PAb21237f919ab0becac55ced9908e65e3] Removing Track event reemitters
+14:45:47.728 index.js:23788 2023-11-03T19:45:47.728Z debug [LocalParticipant #1: PAb21237f919ab0becac55ced9908e65e3] Transitioned to state: disconnected
+14:45:47.728 index.js:23788 2023-11-03T19:45:47.728Z debug [LocalParticipant #1: PAb21237f919ab0becac55ced9908e65e3] Removing LocalTrack event listeners
+14:45:47.728 index.js:23788 2023-11-03T19:45:47.728Z info [LocalParticipant #1: PAb21237f919ab0becac55ced9908e65e3] LocalParticipant disconnected. Stopping 2 automatically-acquired LocalTracks
+14:45:47.728 index.js:23788 2023-11-03T19:45:47.728Z info [LocalAudioTrack #1: cafc3571-b9f7-4c7a-8554-53ad44344fe6] Cleaning up the listener to restart the LocalAudioTrack if the default device changes
+14:45:47.729 index.js:23788 2023-11-03T19:45:47.729Z info [LocalAudioTrack #1: cafc3571-b9f7-4c7a-8554-53ad44344fe6] Stopping
+14:45:47.729 index.js:23788 2023-11-03T19:45:47.729Z debug [LocalAudioTrack #1: cafc3571-b9f7-4c7a-8554-53ad44344fe6] Ended
+14:45:47.730 index.js:23788 2023-11-03T19:45:47.730Z info [LocalVideoTrack #2: e6de140c-1050-4f87-9663-f0a36b38eb75] Stopping
+14:45:47.730 index.js:23788 2023-11-03T19:45:47.730Z debug [LocalVideoTrack #2: e6de140c-1050-4f87-9663-f0a36b38eb75] Ended
+14:45:47.731 index.js:23788 2023-11-03T19:45:47.731Z info [Room #1: RM25ce59bc943bc8f83158d926180c722a] Transitioned to state: disconnected
+14:45:47.731 index.js:23788 2023-11-03T19:45:47.731Z info [LocalVideoTrack #2: e6de140c-1050-4f87-9663-f0a36b38eb75] Stopping
+14:45:47.732 index.js:23788 2023-11-03T19:45:47.732Z info [LocalParticipant #1: PAb21237f919ab0becac55ced9908e65e3] Removed a VideoTrack: e6de140c-1050-4f87-9663-f0a36b38eb75
+14:45:47.733 index.js:23788 2023-11-03T19:45:47.733Z debug [LocalParticipant #1: PAb21237f919ab0becac55ced9908e65e3] VideoTrack: LocalVideoTrack {kind: 'video', name: 'e6de140c-1050-4f87-9663-f0a36b38eb75', processedTrack: null, …}
+14:45:47.733 index.js:23788 2023-11-03T19:45:47.733Z info [LocalParticipant #1: PAb21237f919ab0becac55ced9908e65e3] Removed a VideoTrackPublication: MTe186df164730aa7c3279a46cfccc479b
+14:45:47.733 index.js:23788 2023-11-03T19:45:47.733Z debug [LocalParticipant #1: PAb21237f919ab0becac55ced9908e65e3] VideoTrackPublication: LocalVideoTrackPublication {trackName: 'e6de140c-1050-4f87-9663-f0a36b38eb75', trackSid: 'MTe186df164730aa7c3279a46cfccc479b', kind: 'video', …}
+14:45:47.733 index.js:23788 2023-11-03T19:45:47.733Z info [LocalParticipant #1: PAb21237f919ab0becac55ced9908e65e3] Removed a AudioTrack: cafc3571-b9f7-4c7a-8554-53ad44344fe6
+14:45:47.733 index.js:23788 2023-11-03T19:45:47.733Z debug [LocalParticipant #1: PAb21237f919ab0becac55ced9908e65e3] AudioTrack: LocalAudioTrack {kind: 'audio', name: 'cafc3571-b9f7-4c7a-8554-53ad44344fe6', processedTrack: null, …}
+14:45:47.734 index.js:23788 2023-11-03T19:45:47.734Z info [LocalParticipant #1: PAb21237f919ab0becac55ced9908e65e3] Removed a AudioTrackPublication: MT94cdc42cdcc0d3bfeb2f901a53f117a6
+14:45:47.734 index.js:23788 2023-11-03T19:45:47.734Z debug [LocalParticipant #1: PAb21237f919ab0becac55ced9908e65e3] AudioTrackPublication: LocalAudioTrackPublication {trackName: 'cafc3571-b9f7-4c7a-8554-53ad44344fe6', trackSid: 'MT94cdc42cdcc0d3bfeb2f901a53f117a6', kind: 'audio', …}
+14:45:47.734 index.js:23788 2023-11-03T19:45:47.734Z info [connect #1] Disconnected from Room: [Room #1: RM25ce59bc943bc8f83158d926180c722a]
+14:45:47.734 index.js:23788 2023-11-03T19:45:47.734Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"body":{"session":"71dee4c89cc6f80ac9f71d69b00255c225ce59bc943bc8f83158d926180c722ab21237f919ab0becac55ced9908e65e3f74385d9f056c0130e5eee8bbd94516d","type":"disconnect","version":2},"type":"msg"}
+14:45:47.734 index.js:23788 2023-11-03T19:45:47.734Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"bye"}
+14:45:47.735 index.js:23788 2023-11-03T19:45:47.735Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Closed
+14:45:47.735 index.js:23788 2023-11-03T19:45:47.735Z info [connect #1] event {elapsedTime: 5171, group: 'signaling', level: 'info', name: 'closed', timestamp: 1699040747735, …}
+14:45:47.746 index.js:23788 2023-11-03T19:45:47.746Z info [MediaSignaling #5:track_switch_off] Tearing down
+14:45:47.746 index.js:23788 2023-11-03T19:45:47.746Z info [MediaSignaling #0:active_speaker] Tearing down
+14:45:47.746 index.js:23788 2023-11-03T19:45:47.746Z info [MediaSignaling #2:render_hints] Tearing down
+14:45:47.747 index.js:23788 2023-11-03T19:45:47.747Z info [MediaSignaling #4:track_priority] Tearing down
+14:45:47.815 Navigated to http://localhost:3000/examples/
+14:45:49.874 Navigated to http://localhost:3000/localvideofilter/
+14:45:49.981 index.js:258 Fetch finished loading: GET "http://localhost:3000/localvideofilter/helpers-video-processor.js".
+getSnippet @ index.js:258
+4.../../util/getsnippet @ index.js:231
+o @ index.js:1
+r @ index.js:1
+(anonymous) @ index.js:1
+14:45:50.063 index.js:26616 2023-11-03T19:45:50.062Z info [createLocalTracks #1] Call to getUserMedia successful; got tracks: [MediaStreamTrack]
+14:45:50.066 index.js:26616 2023-11-03T19:45:50.066Z debug [LocalVideoTrack #1: undefined] Initializing
+14:45:50.067 index.js:26616 2023-11-03T19:45:50.067Z debug [LocalVideoTrack #1: 69420ab2-98ab-4070-aab7-a2869832a666] Attempting to attach to element: <video id=​"videoinputpreview" autoplay playsinline>​</video>​
+14:45:50.068 index.js:26616 2023-11-03T19:45:50.068Z debug [LocalVideoTrack #2: undefined] Initializing
+14:45:50.068 index.js:26616 2023-11-03T19:45:50.068Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Attempting to attach to element: <video id=​"videoinputfiltered" autoplay playsinline>​</video>​
+14:45:51.659 index.js:26616 2023-11-03T19:45:51.659Z debug [LocalVideoTrack #1: 69420ab2-98ab-4070-aab7-a2869832a666] Dimensions: {width: 640, height: 360}
+14:45:51.659 index.js:26616 2023-11-03T19:45:51.659Z debug [LocalVideoTrack #1: 69420ab2-98ab-4070-aab7-a2869832a666] Started
+14:45:51.660 index.js:26616 2023-11-03T19:45:51.660Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Dimensions: {width: 640, height: 360}
+14:45:51.660 index.js:26616 2023-11-03T19:45:51.660Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Started
+14:45:52.059 index.css:1 
+        
+        
+       GET https://static0.twilio.com/marketing/bundles/archetype/img/logo-wordmark.svg 404 (Not Found)
+14:45:55.015 index.js:26616 2023-11-03T19:45:55.015Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Adding VideoProcessor to the LocalVideoTrack
+14:45:55.015 index.js:26616 2023-11-03T19:45:55.015Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Adding VideoProcessor to the VideoTrack FilterVideoProcessor {_outputFrame: OffscreenCanvas, _outputContext: OffscreenCanvasRenderingContext2D}
+14:45:55.016 index.js:26616 2023-11-03T19:45:55.016Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] VideoProcessor:add {captureHeight: 360, captureWidth: 640, inputFrameRate: 30.000030517578125, isRemoteVideoTrack: 'false', inputFrameBufferType: 'offscreencanvas', …}
+14:45:55.016 index.js:26616 2023-11-03T19:45:55.016Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Reattaching all elements to update mediaStreamTrack
+14:45:55.017 index.js:26616 2023-11-03T19:45:55.017Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] VideoProcessor:start {captureHeight: 360, captureWidth: 640, inputFrameRate: 30.000030517578125, isRemoteVideoTrack: 'false', inputFrameBufferType: 'offscreencanvas', …}
+14:45:55.017 index.js:26616 2023-11-03T19:45:55.017Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Start capturing frames
+14:45:55.017 index.js:26616 2023-11-03T19:45:55.017Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Updating LocalVideoTrack's MediaStreamTrack with the processed MediaStreamTrack CanvasCaptureMediaStreamTrack {canvas: canvas, kind: 'video', id: '09ce74a3-3e83-4f34-8c93-bb25b5ba15df', label: 'vuoLseOYf1uhS+4qbdJhgH7Xm/UThcQBB9bTbc3A97ZeUs5ssFS8qd+sV29OS99A5KwbJMc1Z0TnxhM7ofV6Zg==', enabled: true, …}
+14:45:57.543 index.js:26616 2023-11-03T19:45:57.543Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Removing VideoProcessor from the LocalVideoTrack
+14:45:57.543 index.js:26616 2023-11-03T19:45:57.543Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] VideoProcessor:remove {captureHeight: 360, captureWidth: 640, inputFrameRate: 30.000030517578125, isRemoteVideoTrack: 'false', inputFrameBufferType: 'offscreencanvas', …}
+14:45:57.543 index.js:26616 2023-11-03T19:45:57.543Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Removing VideoProcessor from the VideoTrack FilterVideoProcessor {_outputFrame: OffscreenCanvas, _outputContext: OffscreenCanvasRenderingContext2D}
+14:45:57.543 index.js:26616 2023-11-03T19:45:57.543Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Reattaching all elements to update mediaStreamTrack
+14:45:57.544 index.js:26616 2023-11-03T19:45:57.544Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Updating LocalVideoTrack's MediaStreamTrack with the original MediaStreamTrack
+14:45:57.544 index.js:26616 2023-11-03T19:45:57.544Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Adding VideoProcessor to the LocalVideoTrack
+14:45:57.544 index.js:26616 2023-11-03T19:45:57.544Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Adding VideoProcessor to the VideoTrack FilterVideoProcessor {_outputFrame: OffscreenCanvas, _outputContext: OffscreenCanvasRenderingContext2D}
+14:45:57.544 index.js:26616 2023-11-03T19:45:57.544Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] VideoProcessor:add {captureHeight: 360, captureWidth: 640, inputFrameRate: 30.000030517578125, isRemoteVideoTrack: 'false', inputFrameBufferType: 'offscreencanvas', …}
+14:45:57.545 index.js:26616 2023-11-03T19:45:57.545Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Reattaching all elements to update mediaStreamTrack
+14:45:57.545 index.js:26616 2023-11-03T19:45:57.545Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] VideoProcessor:start {captureHeight: 360, captureWidth: 640, inputFrameRate: 30.000030517578125, isRemoteVideoTrack: 'false', inputFrameBufferType: 'offscreencanvas', …}
+14:45:57.545 index.js:26616 2023-11-03T19:45:57.545Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Start capturing frames
+14:45:57.545 index.js:26616 2023-11-03T19:45:57.545Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Updating LocalVideoTrack's MediaStreamTrack with the processed MediaStreamTrack CanvasCaptureMediaStreamTrack {canvas: canvas, kind: 'video', id: '97d988e3-a0b0-4000-9e02-83f91f8cd6c9', label: 'ebOEJgWySjpAN7UKlzUzyfliAVlb3xAFZIuJ6H+OhwPRIyID6R5xkjRtkYNhky50Tw4nqX+wIlxEAUrsJ5yyLw==', enabled: true, …}
+14:45:57.545 index.js:26616 2023-11-03T19:45:57.545Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Reattaching all elements to update mediaStreamTrack
+14:45:59.978 index.js:26616 2023-11-03T19:45:59.978Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Removing VideoProcessor from the LocalVideoTrack
+14:45:59.978 index.js:26616 2023-11-03T19:45:59.978Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] VideoProcessor:remove {captureHeight: 360, captureWidth: 640, inputFrameRate: 30.000030517578125, isRemoteVideoTrack: 'false', inputFrameBufferType: 'offscreencanvas', …}
+14:45:59.978 index.js:26616 2023-11-03T19:45:59.978Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Removing VideoProcessor from the VideoTrack FilterVideoProcessor {_outputFrame: OffscreenCanvas, _outputContext: OffscreenCanvasRenderingContext2D}
+14:45:59.978 index.js:26616 2023-11-03T19:45:59.978Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Reattaching all elements to update mediaStreamTrack
+14:45:59.979 index.js:26616 2023-11-03T19:45:59.979Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Updating LocalVideoTrack's MediaStreamTrack with the original MediaStreamTrack
+14:45:59.979 index.js:26616 2023-11-03T19:45:59.979Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Adding VideoProcessor to the LocalVideoTrack
+14:45:59.979 index.js:26616 2023-11-03T19:45:59.979Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Adding VideoProcessor to the VideoTrack FilterVideoProcessor {_outputFrame: OffscreenCanvas, _outputContext: OffscreenCanvasRenderingContext2D}
+14:45:59.979 index.js:26616 2023-11-03T19:45:59.979Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] VideoProcessor:add {captureHeight: 360, captureWidth: 640, inputFrameRate: 30.000030517578125, isRemoteVideoTrack: 'false', inputFrameBufferType: 'offscreencanvas', …}
+14:45:59.979 index.js:26616 2023-11-03T19:45:59.979Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Reattaching all elements to update mediaStreamTrack
+14:45:59.980 index.js:26616 2023-11-03T19:45:59.980Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] VideoProcessor:start {captureHeight: 360, captureWidth: 640, inputFrameRate: 30.000030517578125, isRemoteVideoTrack: 'false', inputFrameBufferType: 'offscreencanvas', …}
+14:45:59.980 index.js:26616 2023-11-03T19:45:59.980Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Start capturing frames
+14:45:59.980 index.js:26616 2023-11-03T19:45:59.980Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Updating LocalVideoTrack's MediaStreamTrack with the processed MediaStreamTrack CanvasCaptureMediaStreamTrack {canvas: canvas, kind: 'video', id: 'ca27e396-ac7f-403b-82dc-d09aa4f3ada1', label: '6EsOHcNdwRdfLJKU8isCX0RvQejVgtNSD4rJMJWXal7q6eyDFB+Kms3oyvHi9npTb3H5pF5MnUVBN0xA5QQu1A==', enabled: true, …}
+14:45:59.980 index.js:26616 2023-11-03T19:45:59.980Z debug [LocalVideoTrack #2: 69420ab2-98ab-4070-aab7-a2869832a666] Reattaching all elements to update mediaStreamTrack
