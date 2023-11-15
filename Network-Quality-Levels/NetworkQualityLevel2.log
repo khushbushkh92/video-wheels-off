@@ -1,0 +1,112 @@
+22:07:05.687 index.js:26114 2023-11-02T03:07:05.687Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:06.729 index.js:26114 2023-11-02T03:07:06.729Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}local: {level: 3}type: "network_quality"[[Prototype]]: Object
+22:07:07.126 index.js:26114 2023-11-02T03:07:07.126Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+22:07:07.769 index.js:26114 2023-11-02T03:07:07.769Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:07.876 index.js:26114 2023-11-02T03:07:07.876Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+22:07:08.809 index.js:26114 2023-11-02T03:07:08.809Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:09.851 index.js:26114 2023-11-02T03:07:09.851Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:10.889 index.js:26114 2023-11-02T03:07:10.889Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:11.927 index.js:26114 2023-11-02T03:07:11.927Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+22:07:11.936 index.js:26114 2023-11-02T03:07:11.936Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:11.976 index.js:26114 2023-11-02T03:07:11.976Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+22:07:12.995 index.js:26114 2023-11-02T03:07:12.995Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:14.036 index.js:26114 2023-11-02T03:07:14.036Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:14.984 index.js:26114 2023-11-02T03:07:14.984Z info [connect #8] event {elapsedTime: 80805, group: 'quality', level: 'info', name: 'stats-report', timestamp: 1698894434984, …}
+22:07:15.076 index.js:26114 2023-11-02T03:07:15.076Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:15.978 index.js:26114 2023-11-02T03:07:15.978Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+22:07:16.114 index.js:26114 2023-11-02T03:07:16.114Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:16.728 index.js:26114 2023-11-02T03:07:16.728Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+22:07:17.154 index.js:26114 2023-11-02T03:07:17.154Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:18.195 index.js:26114 2023-11-02T03:07:18.195Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:19.239 index.js:26114 2023-11-02T03:07:19.239Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:20.076 index.js:26114 2023-11-02T03:07:20.076Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+22:07:20.282 index.js:26114 2023-11-02T03:07:20.282Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:21.339 index.js:26114 2023-11-02T03:07:21.339Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:21.531 index.js:26114 2023-11-02T03:07:21.531Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+22:07:22.383 index.js:26114 2023-11-02T03:07:22.383Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:23.423 index.js:26114 2023-11-02T03:07:23.423Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:24.266 index.js:26114 2023-11-02T03:07:24.266Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+22:07:24.606 index.js:26114 2023-11-02T03:07:24.606Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}local: {level: 5}type: "network_quality"[[Prototype]]: Object
+22:07:24.985 index.js:26114 2023-11-02T03:07:24.985Z info [connect #8] event {elapsedTime: 90806, group: 'quality', level: 'info', name: 'stats-report', timestamp: 1698894444985, …}
+22:07:24.985 index.js:26114 2023-11-02T03:07:24.985Z info [connect #8] event {elapsedTime: 90806, group: 'quality', level: 'info', name: 'active-ice-candidate-pair', timestamp: 1698894444985, …}
+22:07:25.788 index.js:26114 2023-11-02T03:07:25.788Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:26.332 index.js:26114 2023-11-02T03:07:26.332Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+22:07:27.008 index.js:26114 2023-11-02T03:07:27.008Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:28.107 index.js:26114 2023-11-02T03:07:28.106Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:28.279 index.js:26114 2023-11-02T03:07:28.279Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+22:07:29.163 index.js:26114 2023-11-02T03:07:29.163Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:30.204 index.js:26114 2023-11-02T03:07:30.204Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:31.134 index.js:26114 2023-11-02T03:07:31.134Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+22:07:31.249 index.js:26114 2023-11-02T03:07:31.249Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:32.290 index.js:26114 2023-11-02T03:07:32.290Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:32.376 index.js:26114 2023-11-02T03:07:32.376Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+22:07:33.336 index.js:26114 2023-11-02T03:07:33.336Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:34.405 index.js:26114 2023-11-02T03:07:34.405Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:34.985 index.js:26114 2023-11-02T03:07:34.985Z info [connect #8] event {elapsedTime: 100806, group: 'quality', level: 'info', name: 'stats-report', timestamp: 1698894454985, …}
+22:07:35.447 index.js:26114 2023-11-02T03:07:35.447Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:35.936 index.js:26114 2023-11-02T03:07:35.936Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+22:07:36.376 index.js:26114 2023-11-02T03:07:36.376Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+22:07:36.487 index.js:26114 2023-11-02T03:07:36.487Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:37.528 index.js:26114 2023-11-02T03:07:37.528Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:38.567 index.js:26114 2023-11-02T03:07:38.567Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:39.604 index.js:26114 2023-11-02T03:07:39.604Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:40.478 index.js:26114 2023-11-02T03:07:40.478Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+22:07:40.682 index.js:26114 2023-11-02T03:07:40.682Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:40.738 index.js:26114 2023-11-02T03:07:40.738Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+22:07:41.721 index.js:26114 2023-11-02T03:07:41.721Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:42.761 index.js:26114 2023-11-02T03:07:42.761Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:43.806 index.js:26114 2023-11-02T03:07:43.806Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:44.476 index.js:26114 2023-11-02T03:07:44.476Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+22:07:44.846 index.js:26114 2023-11-02T03:07:44.846Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:44.984 index.js:26114 2023-11-02T03:07:44.984Z info [connect #8] event {elapsedTime: 110805, group: 'quality', level: 'info', name: 'stats-report', timestamp: 1698894464984, …}
+22:07:44.984 index.js:26114 2023-11-02T03:07:44.984Z info [connect #8] event {elapsedTime: 110805, group: 'quality', level: 'info', name: 'active-ice-candidate-pair', timestamp: 1698894464984, …}
+22:07:45.538 index.js:26114 2023-11-02T03:07:45.538Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+22:07:45.891 index.js:26114 2023-11-02T03:07:45.891Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:46.933 index.js:26114 2023-11-02T03:07:46.933Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:47.977 index.js:26114 2023-11-02T03:07:47.977Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:48.632 index.js:26114 2023-11-02T03:07:48.632Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+22:07:49.068 index.js:26114 2023-11-02T03:07:49.068Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:50.114 index.js:26114 2023-11-02T03:07:50.114Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:50.340 index.js:26114 2023-11-02T03:07:50.340Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+22:07:51.176 index.js:26114 2023-11-02T03:07:51.176Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:52.240 index.js:26114 2023-11-02T03:07:52.240Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:52.676 index.js:26114 2023-11-02T03:07:52.676Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+22:07:53.307 index.js:26114 2023-11-02T03:07:53.307Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:54.384 index.js:26114 2023-11-02T03:07:54.384Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:54.988 index.js:26114 2023-11-02T03:07:54.988Z info [connect #8] event {elapsedTime: 120809, group: 'quality', level: 'info', name: 'stats-report', timestamp: 1698894474988, …}
+22:07:55.141 index.js:26114 2023-11-02T03:07:55.141Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+22:07:55.456 index.js:26114 2023-11-02T03:07:55.456Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:56.518 index.js:26114 2023-11-02T03:07:56.518Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:56.678 index.js:26114 2023-11-02T03:07:56.678Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+22:07:57.708 index.js:26114 2023-11-02T03:07:57.708Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:58.788 index.js:26114 2023-11-02T03:07:58.788Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:59.861 index.js:26114 2023-11-02T03:07:59.861Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:07:59.944 index.js:26114 2023-11-02T03:07:59.944Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+22:08:00.775 index.js:26114 2023-11-02T03:08:00.775Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+22:08:00.905 index.js:26114 2023-11-02T03:08:00.905Z debug [MediaSignaling #43:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+22:08:01.247 index.js:26114 2023-11-02T03:08:01.247Z info [Room #8: RMe667389cc4cc5daba8aad6f0296a8c44] Disconnecting
+22:08:01.247 index.js:26114 2023-11-02T03:08:01.247Z debug [LocalParticipant #20: PAac05d5d9c1d42dec1da5e906f9ce92ac] Transitioned to state: disconnected
+22:08:01.247 index.js:26114 2023-11-02T03:08:01.247Z debug [LocalParticipant #20: PAac05d5d9c1d42dec1da5e906f9ce92ac] Removing Track event reemitters
+22:08:01.248 index.js:26114 2023-11-02T03:08:01.248Z debug [LocalParticipant #20: PAac05d5d9c1d42dec1da5e906f9ce92ac] Transitioned to state: disconnected
+22:08:01.248 index.js:26114 2023-11-02T03:08:01.248Z debug [LocalParticipant #20: PAac05d5d9c1d42dec1da5e906f9ce92ac] Removing LocalTrack event listeners
+22:08:01.248 index.js:26114 2023-11-02T03:08:01.248Z info [LocalParticipant #20: PAac05d5d9c1d42dec1da5e906f9ce92ac] LocalParticipant disconnected. Stopping 2 automatically-acquired LocalTracks
+22:08:01.248 index.js:26114 2023-11-02T03:08:01.248Z info [LocalAudioTrack #39: 178129fa-851b-4286-ad15-60aa4827a37a] Cleaning up the listener to restart the LocalAudioTrack if the default device changes
+22:08:01.248 index.js:26114 2023-11-02T03:08:01.248Z info [LocalAudioTrack #39: 178129fa-851b-4286-ad15-60aa4827a37a] Stopping
+22:08:01.249 index.js:26114 2023-11-02T03:08:01.249Z debug [LocalAudioTrack #39: 178129fa-851b-4286-ad15-60aa4827a37a] Ended
+22:08:01.250 index.js:26114 2023-11-02T03:08:01.250Z info [LocalVideoTrack #40: 00eaa63f-2037-43a7-96f9-f12bfb65dc76] Stopping
+22:08:01.250 index.js:26114 2023-11-02T03:08:01.250Z debug [LocalVideoTrack #40: 00eaa63f-2037-43a7-96f9-f12bfb65dc76] Ended
+22:08:01.251 index.js:26114 2023-11-02T03:08:01.251Z info [Room #8: RMe667389cc4cc5daba8aad6f0296a8c44] Transitioned to state: disconnected
+22:08:01.251 index.js:26114 2023-11-02T03:08:01.251Z info [LocalParticipant #20: PAac05d5d9c1d42dec1da5e906f9ce92ac] Removed a AudioTrack: 178129fa-851b-4286-ad15-60aa4827a37a
+22:08:01.251 index.js:26114 2023-11-02T03:08:01.251Z debug [LocalParticipant #20: PAac05d5d9c1d42dec1da5e906f9ce92ac] AudioTrack: LocalAudioTrack {kind: 'audio', name: '178129fa-851b-4286-ad15-60aa4827a37a', processedTrack: null, …}
+22:08:01.251 index.js:26114 2023-11-02T03:08:01.251Z info [LocalParticipant #20: PAac05d5d9c1d42dec1da5e906f9ce92ac] Removed a AudioTrackPublication: MT90ca6eaa06a9fc336dd7b92b962d4e07
+22:08:01.251 index.js:26114 2023-11-02T03:08:01.251Z debug [LocalParticipant #20: PAac05d5d9c1d42dec1da5e906f9ce92ac] AudioTrackPublication: LocalAudioTrackPublication {trackName: '178129fa-851b-4286-ad15-60aa4827a37a', trackSid: 'MT90ca6eaa06a9fc336dd7b92b962d4e07', kind: 'audio', …}
+22:08:01.252 index.js:26114 2023-11-02T03:08:01.252Z info [LocalParticipant #20: PAac05d5d9c1d42dec1da5e906f9ce92ac] Removed a VideoTrack: 00eaa63f-2037-43a7-96f9-f12bfb65dc76
+22:08:01.252 index.js:26114 2023-11-02T03:08:01.252Z debug [LocalParticipant #20: PAac05d5d9c1d42dec1da5e906f9ce92ac] VideoTrack: LocalVideoTrack {kind: 'video', name: '00eaa63f-2037-43a7-96f9-f12bfb65dc76', processedTrack: null, …}
+22:08:01.252 index.js:26114 2023-11-02T03:08:01.252Z info [LocalParticipant #20: PAac05d5d9c1d42dec1da5e906f9ce92ac] Removed a VideoTrackPublication: MTa10c41d572c9bea9b6135cbf59e3fa5d
+22:08:01.252 index.js:26114 2023-11-02T03:08:01.252Z debug [LocalParticipant #20: PAac05d5d9c1d42dec1da5e906f9ce92ac] VideoTrackPublication: LocalVideoTrackPublication {trackName: '00eaa63f-2037-43a7-96f9-f12bfb65dc76', trackSid: 'MTa10c41d572c9bea9b6135cbf59e3fa5d', kind: 'video', …}
+22:08:01.252 index.js:26114 2023-11-02T03:08:01.252Z info [connect #8] Disconnected from Room: [Room #8: RMe667389cc4cc5daba8aad6f0296a8c44]
+22:08:01.252 index.js:26114 2023-11-02T03:08:01.252Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Outgoing: {"body":{"session":"71dee4c89cc6f80ac9f71d69b00255c2e667389cc4cc5daba8aad6f0296a8c44ac05d5d9c1d42dec1da5e906f9ce92ac130151c6e1408d439035f9aa53ff861f","type":"disconnect","version":2},"type":"msg"}
+22:08:01.252 index.js:26114 2023-11-02T03:08:01.252Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"bye"}
+22:08:01.253 index.js:26114 2023-11-02T03:08:01.253Z debug [TwilioConnection #8: wss://global.vss.twilio.com/signaling] Closed
+22:08:01.253 index.js:26114 2023-11-02T03:08:01.253Z info [connect #8] event {elapsedTime: 127074, group: 'signaling', level: 'info', name: 'closed', timestamp: 1698894481253, …}
+22:08:01.269 index.js:26114 2023-11-02T03:08:01.269Z info [MediaSignaling #43:network_quality] Tearing down
