@@ -1,0 +1,713 @@
+15:38:07.697 /favicon.ico:1 
+        
+        
+       Failed to load resource: the server responded with a status of 404 ()
+15:38:08.690 BackgroundProcessor.ts:179 Valid mask blur radius not found. Using 5 as default.
+set @ BackgroundProcessor.ts:179
+15:38:08.694 GaussianBlurBackgroundProcessor.ts:74 Valid blur filter radius not found. Using 15 as default.
+set @ GaussianBlurBackgroundProcessor.ts:74
+15:38:10.053 tflite-simd-1-0-0.js:9 [WASM] Loading model of size: 249792
+15:38:10.057 tflite-simd-1-0-0.js:9 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+printChar @ tflite-simd-1-0-0.js:9
+15:38:10.382 BackgroundProcessor.ts:179 Valid mask blur radius not found. Using 5 as default.
+set @ BackgroundProcessor.ts:179
+15:38:10.433 tflite-simd-1-0-0.js:9 [WASM] Loading model of size: 249792
+15:38:10.433 tflite-simd-1-0-0.js:9 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+printChar @ tflite-simd-1-0-0.js:9
+15:39:36.978 log.js:162 2023-12-06T21:39:36.977Z info [createLocalTracks #1] Call to getUserMedia successful; got tracks: (2) [MediaStreamTrack, MediaStreamTrack]
+15:39:36.979 log.js:162 2023-12-06T21:39:36.979Z debug [createLocalTracks #1] loading noise cancellation sdk:  /noisecancellation/krispsdk.mjs
+15:39:36.982 log.js:162 2023-12-06T21:39:36.982Z debug [LocalVideoTrack #1: undefined] Initializing
+15:39:37.336 log.js:162 2023-12-06T21:39:37.336Z debug [createLocalTracks #1] Loaded noise cancellation sdk: Module {Symbol(Symbol.toStringTag): 'Module'}
+15:39:37.336 log.js:162 2023-12-06T21:39:37.336Z debug [createLocalTracks #1] Plugin Version = 1.0.0
+15:39:37.342 log.js:162 2023-12-06T21:39:37.342Z debug [createLocalTracks #1] initializing noise cancellation sdk:  /noisecancellation
+15:39:38.615 log.js:162 2023-12-06T21:39:38.615Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] Dimensions: {width: 1280, height: 720}
+15:39:38.615 log.js:162 2023-12-06T21:39:38.615Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] Started
+15:39:39.414 krispsdk.mjs:20 XHR finished loading: GET "https://video-app-5829-4051-dev.twil.io/noisecancellation/weights/model_32.kw".
+_0x4bab3a @ krispsdk.mjs:20
+init @ krispsdk.mjs:20
+(anonymous) @ noisecancellationadapter.ts:95
+(anonymous) @ networkqualityconfiguration.js:74
+(anonymous) @ networkqualityconfiguration.js:74
+o @ networkqualityconfiguration.js:74
+Promise.then (async)
+u @ networkqualityconfiguration.js:74
+(anonymous) @ networkqualityconfiguration.js:74
+r @ networkqualityconfiguration.js:74
+t.createNoiseCancellationAudioProcessor @ noisecancellationadapter.ts:68
+(anonymous) @ noisecancellationimpl.ts:167
+(anonymous) @ mediatrack.js:384
+(anonymous) @ mediatrack.js:384
+(anonymous) @ mediatrack.js:384
+r @ mediatrack.js:384
+t.applyNoiseCancellation @ noisecancellationimpl.ts:164
+(anonymous) @ createlocaltracks.ts:214
+(anonymous) @ createlocaltrack.js:97
+(anonymous) @ createlocaltrack.js:97
+(anonymous) @ createlocaltrack.js:97
+i @ createlocaltrack.js:97
+(anonymous) @ createlocaltracks.ts:212
+(anonymous) @ createlocaltracks.ts:212
+(anonymous) @ createlocaltrack.js:97
+(anonymous) @ createlocaltrack.js:97
+o @ createlocaltrack.js:97
+Promise.then (async)
+u @ createlocaltrack.js:97
+(anonymous) @ createlocaltrack.js:97
+i @ createlocaltrack.js:97
+t.createLocalTracks @ createlocaltracks.ts:104
+(anonymous) @ useLocalTracks.ts:96
+f @ regeneratorRuntime.js:86
+(anonymous) @ regeneratorRuntime.js:66
+(anonymous) @ regeneratorRuntime.js:117
+r @ asyncToGenerator.js:3
+s @ asyncToGenerator.js:25
+Promise.then (async)
+r @ asyncToGenerator.js:13
+s @ asyncToGenerator.js:25
+Promise.then (async)
+r @ asyncToGenerator.js:13
+s @ asyncToGenerator.js:25
+Promise.then (async)
+r @ asyncToGenerator.js:13
+s @ asyncToGenerator.js:25
+(anonymous) @ asyncToGenerator.js:32
+(anonymous) @ asyncToGenerator.js:21
+(anonymous) @ PreJoinScreens.tsx:37
+us @ react-dom.production.min.js:211
+Su @ react-dom.production.min.js:257
+t.unstable_runWithPriority @ scheduler.production.min.js:19
+Gi @ react-dom.production.min.js:122
+_u @ react-dom.production.min.js:257
+su @ react-dom.production.min.js:239
+(anonymous) @ react-dom.production.min.js:123
+t.unstable_runWithPriority @ scheduler.production.min.js:19
+Gi @ react-dom.production.min.js:122
+Xi @ react-dom.production.min.js:123
+Yi @ react-dom.production.min.js:122
+D @ react-dom.production.min.js:287
+Xt @ react-dom.production.min.js:68
+15:39:40.099 log.js:162 2023-12-06T21:39:40.099Z debug [createLocalTracks #1] noise cancellation sdk initialized!
+15:39:40.100 log.js:162 2023-12-06T21:39:40.100Z debug [createLocalTracks #1] connect:  695c8825-8aa2-4f81-adba-916f35ea1b88
+15:39:40.102 log.js:162 2023-12-06T21:39:40.102Z debug [LocalAudioTrack #2: undefined] Initializing
+15:39:40.102 log.js:162 2023-12-06T21:39:40.102Z debug [LocalAudioTrack #2: 2564f4e7-1447-4778-a95d-ea23c7302645] defaultDeviceCaptureMode: auto
+15:39:40.103 log.js:162 2023-12-06T21:39:40.103Z info [LocalAudioTrack #2: 2564f4e7-1447-4778-a95d-ea23c7302645] LocalAudioTrack will be restarted if the default device changes
+15:39:40.107 log.js:162 2023-12-06T21:39:40.107Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] Attempting to attach to element: <video class=​"jss57" autoplay playsinline style=​"transform:​ scaleX(-1)​;​ object-fit:​ cover;​">​</video>​
+15:39:40.141 log.js:162 2023-12-06T21:39:40.141Z debug [LocalAudioTrack #2: 2564f4e7-1447-4778-a95d-ea23c7302645] Started
+15:39:41.672 log.js:162 2023-12-06T21:39:41.672Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] Attempting to detach from elements: [video.jss57]
+15:39:43.121 usePasscodeAuth.ts:19 Fetch finished loading: POST "https://video-app-5829-4051-dev.twil.io/token".
+Wa @ usePasscodeAuth.ts:19
+(anonymous) @ usePasscodeAuth.ts:68
+getToken @ index.tsx:140
+onClick @ DeviceSelectionScreen.tsx:87
+s @ react-dom.production.min.js:14
+p @ react-dom.production.min.js:14
+(anonymous) @ react-dom.production.min.js:14
+g @ react-dom.production.min.js:15
+st @ react-dom.production.min.js:52
+at @ react-dom.production.min.js:51
+ut @ react-dom.production.min.js:52
+ht @ react-dom.production.min.js:56
+L @ react-dom.production.min.js:287
+U @ react-dom.production.min.js:19
+$t @ react-dom.production.min.js:70
+Jt @ react-dom.production.min.js:69
+t.unstable_runWithPriority @ scheduler.production.min.js:19
+Gi @ react-dom.production.min.js:122
+D @ react-dom.production.min.js:287
+Xt @ react-dom.production.min.js:68
+15:39:43.132 log.js:162 2023-12-06T21:39:43.132Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] Attempting to attach to element: <video class=​"jss67" autoplay playsinline style=​"transform:​ scaleX(-1)​;​ object-fit:​ cover;​">​</video>​
+15:39:43.143 log.js:162 2023-12-06T21:39:43.143Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] Attempting to detach from elements: [video.jss67]
+15:39:43.146 log.js:162 2023-12-06T21:39:43.146Z info [connect #1] Connecting to a Room
+15:39:43.146 log.js:162 2023-12-06T21:39:43.146Z debug [connect #1] Options: {eventObserver: t, wsServer: 'wss://global.vss.twilio.com/signaling', automaticSubscription: true, dominantSpeaker: true, enableDscp: false, …}
+15:39:43.147 log.js:162 2023-12-06T21:39:43.147Z info [connect #1] Getting LocalTracks
+15:39:43.147 log.js:162 2023-12-06T21:39:43.147Z debug [connect #1] Options: {eventObserver: t, wsServer: 'wss://global.vss.twilio.com/signaling', automaticSubscription: true, dominantSpeaker: true, enableDscp: false, …}
+15:39:43.147 log.js:162 2023-12-06T21:39:43.147Z info [createLocalTracks #2] Adding user-provided LocalTracks
+15:39:43.148 log.js:162 2023-12-06T21:39:43.148Z debug [createLocalTracks #2] LocalTracks: (2) [t, t]
+15:39:43.156 log.js:162 2023-12-06T21:39:43.156Z debug [connect #1] Creating a new LocalParticipant: t {_events: {…}, _eventsCount: 1, _maxListeners: undefined, …}
+15:39:43.158 log.js:162 2023-12-06T21:39:43.158Z info [LocalParticipant #1] Created a new Participant
+15:39:43.159 log.js:162 2023-12-06T21:39:43.158Z info [LocalParticipant #1] Added a new LocalAudioTrack: 2564f4e7-1447-4778-a95d-ea23c7302645
+15:39:43.159 log.js:162 2023-12-06T21:39:43.159Z debug [LocalParticipant #1] LocalAudioTrack: t {kind: 'audio', name: '2564f4e7-1447-4778-a95d-ea23c7302645', processedTrack: null, …}
+15:39:43.159 log.js:162 2023-12-06T21:39:43.159Z info [LocalParticipant #1] Added a new LocalVideoTrack: 2803e946-60fb-488b-96e5-5fa0f83b026d
+15:39:43.160 log.js:162 2023-12-06T21:39:43.160Z debug [LocalParticipant #1] LocalVideoTrack: t {kind: 'video', name: 'camera-1701898775336', processedTrack: null, …}
+15:39:43.160 log.js:162 2023-12-06T21:39:43.160Z debug [connect #1] Creating a new RoomSignaling
+15:39:43.163 log.js:162 2023-12-06T21:39:43.163Z info [connect #1] event {elapsedTime: 17, group: 'signaling', level: 'info', name: 'early', timestamp: 1701898783163}
+15:39:43.164 log.js:162 2023-12-06T21:39:43.164Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Created a new WebSocket: WebSocket {url: 'wss://global.vss.twilio.com/signaling', readyState: 0, bufferedAmount: 0, onopen: null, onerror: null, …}
+15:39:43.164 log.js:162 2023-12-06T21:39:43.164Z info [connect #1] event {elapsedTime: 18, group: 'room', level: 'info', name: 'connect', timestamp: 1701898783164, …}
+15:39:43.346 log.js:162 2023-12-06T21:39:43.346Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] WebSocket opened: WebSocket {url: 'wss://global.vss.twilio.com/signaling', readyState: 1, bufferedAmount: 0, onopen: null, onerror: null, …}
+15:39:43.347 log.js:162 2023-12-06T21:39:43.347Z info [connect #1] event {elapsedTime: 201, group: 'signaling', level: 'info', name: 'connecting', timestamp: 1701898783347}
+15:39:43.347 log.js:162 2023-12-06T21:39:43.347Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"id":"ef397757-4d74-4b6e-83b9-93b9aa17cb21","timeout":5000,"type":"hello","version":2,"body":{"edge":"roaming","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTSzJhZjllZWI2OGI1ZDBkMjIyY2Y3Yjk1MGVlYmQwY2QxLTE3MDE4OTg3ODMiLCJncmFudHMiOnsiaWRlbnRpdHkiOiJLaHVzaGJ1IiwidmlkZW8iOnsicm9vbSI6Ikxvd0JhbmR3aWR0aCJ9LCJjaGF0Ijp7InNlcnZpY2Vfc2lkIjoiSVM5ZGNkMTgzN2M1ODE0NmFiOTM4YzNjMmU1NjA2ZGMwYSJ9fSwiaWF0IjoxNzAxODk4NzgzLCJleHAiOjE3MDE5MTMxODMsImlzcyI6IlNLMmFmOWVlYjY4YjVkMGQyMjJjZjdiOTUwZWViZDBjZDEiLCJzdWIiOiJBQzcxZGVlNGM4OWNjNmY4MGFjOWY3MWQ2OWIwMDI1NWMyIn0.lMtzPsafyalezAcR1SXKYSpBPEn3TjuBrllPt1lzoks","type":"ice","version":1}}
+15:39:43.385 log.js:162 2023-12-06T21:39:43.385Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"negotiatedTimeout":5000,"type":"welcome"}
+15:39:43.386 log.js:162 2023-12-06T21:39:43.386Z info [connect #1] event {elapsedTime: 240, group: 'signaling', level: 'info', name: 'open', timestamp: 1701898783386}
+15:39:43.398 log.js:162 2023-12-06T21:39:43.398Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"body":{"version":1,"type":"iced","participants":[],"ice_servers":[{"urls":"turn:ashburn.turn.twilio.com:3478?transport=udp","username":"0a1b3375368162ef030afbe187f5f1462d8dbbe8aa1c7e1f135ea90dcf9184e8","credential":"bvRU9KjzytJGKKt6oC9WEF1AMC/Je5EWYI8TVL4VpjM="},{"urls":"turns:ashburn.turn.twilio.com:443?transport=tcp","username":"0a1b3375368162ef030afbe187f5f1462d8dbbe8aa1c7e1f135ea90dcf9184e8","credential":"bvRU9KjzytJGKKt6oC9WEF1AMC/Je5EWYI8TVL4VpjM="}]},"type":"msg"}
+15:39:43.398 log.js:162 2023-12-06T21:39:43.398Z debug [connect #1] Got ICE servers: (2) [{…}, {…}]
+15:39:43.416 log.js:162 2023-12-06T21:39:43.416Z debug [connect #1] createAndOffer() succeeded.
+15:39:43.417 log.js:162 2023-12-06T21:39:43.417Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"body":{"name":null,"participant":{"revision":3,"tracks":[{"enabled":true,"id":"f68fd849-f01c-41a1-82ba-a28ee9208b31","kind":"audio","name":"2564f4e7-1447-4778-a95d-ea23c7302645","priority":"standard","audio_processor":"krisp"},{"enabled":true,"id":"954e172d-c6d1-45c6-a6ec-04c15e63479f","kind":"video","name":"camera-1701898775336","priority":"standard"}]},"peer_connections":[{"description":{"type":"offer","revision":1,"sdp":"v=0\r\no=- 1555033483493745328 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 63 9 0 8 13 110 126\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:MMX+\r\na=ice-pwd:Krq7AwjG5NBe4+rofA630ERt\r\na=ice-options:trickle\r\na=fingerprint:sha-256 F0:6F:9D:D8:7C:8D:1B:D2:EF:56:A6:3C:9E:49:5F:17:65:4D:5B:2B:BD:C5:F8:31:5F:2E:89:A8:30:52:7A:21\r\na=setup:actpass\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=sendrecv\r\na=msid:- f68fd849-f01c-41a1-82ba-a28ee9208b31\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:63 red/48000/2\r\na=fmtp:63 111/111\r\na=rtpmap:9 G722/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:13 CN/8000\r\na=rtpmap:110 telephone-event/48000\r\na=rtpmap:126 telephone-event/8000\r\na=ssrc:1162071322 cname:nZKJrFoZdlR/YMl2\r\na=ssrc:1162071322 msid:- f68fd849-f01c-41a1-82ba-a28ee9208b31\r\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 103 105 107 109 125 40 46 99 101 113 117 102 104 106 108 127 39 112 45 98 100 116 118\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:MMX+\r\na=ice-pwd:Krq7AwjG5NBe4+rofA630ERt\r\na=ice-options:trickle\r\na=fingerprint:sha-256 F0:6F:9D:D8:7C:8D:1B:D2:EF:56:A6:3C:9E:49:5F:17:65:4D:5B:2B:BD:C5:F8:31:5F:2E:89:A8:30:52:7A:21\r\na=setup:actpass\r\na=mid:1\r\na=extmap:14 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:13 urn:3gpp:video-orientation\r\na=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\r\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\r\na=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space\r\na=extmap:4 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=sendrecv\r\na=msid:- 954e172d-c6d1-45c6-a6ec-04c15e63479f\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 VP8/90000\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=96\r\na=rtpmap:102 H264/90000\r\na=rtcp-fb:102 goog-remb\r\na=rtcp-fb:102 transport-cc\r\na=rtcp-fb:102 ccm fir\r\na=rtcp-fb:102 nack\r\na=rtcp-fb:102 nack pli\r\na=fmtp:102 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\r\na=rtpmap:103 rtx/90000\r\na=fmtp:103 apt=102\r\na=rtpmap:104 H264/90000\r\na=rtcp-fb:104 goog-remb\r\na=rtcp-fb:104 transport-cc\r\na=rtcp-fb:104 ccm fir\r\na=rtcp-fb:104 nack\r\na=rtcp-fb:104 nack pli\r\na=fmtp:104 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f\r\na=rtpmap:105 rtx/90000\r\na=fmtp:105 apt=104\r\na=rtpmap:106 H264/90000\r\na=rtcp-fb:106 goog-remb\r\na=rtcp-fb:106 transport-cc\r\na=rtcp-fb:106 ccm fir\r\na=rtcp-fb:106 nack\r\na=rtcp-fb:106 nack pli\r\na=fmtp:106 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:107 rtx/90000\r\na=fmtp:107 apt=106\r\na=rtpmap:108 H264/90000\r\na=rtcp-fb:108 goog-remb\r\na=rtcp-fb:108 transport-cc\r\na=rtcp-fb:108 ccm fir\r\na=rtcp-fb:108 nack\r\na=rtcp-fb:108 nack pli\r\na=fmtp:108 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f\r\na=rtpmap:109 rtx/90000\r\na=fmtp:109 apt=108\r\na=rtpmap:127 H264/90000\r\na=rtcp-fb:127 goog-remb\r\na=rtcp-fb:127 transport-cc\r\na=rtcp-fb:127 ccm fir\r\na=rtcp-fb:127 nack\r\na=rtcp-fb:127 nack pli\r\na=fmtp:127 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d001f\r\na=rtpmap:125 rtx/90000\r\na=fmtp:125 apt=127\r\na=rtpmap:39 H264/90000\r\na=rtcp-fb:39 goog-remb\r\na=rtcp-fb:39 transport-cc\r\na=rtcp-fb:39 ccm fir\r\na=rtcp-fb:39 nack\r\na=rtcp-fb:39 nack pli\r\na=fmtp:39 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=4d001f\r\na=rtpmap:40 rtx/90000\r\na=fmtp:40 apt=39\r\na=rtpmap:45 AV1/90000\r\na=rtcp-fb:45 goog-remb\r\na=rtcp-fb:45 transport-cc\r\na=rtcp-fb:45 ccm fir\r\na=rtcp-fb:45 nack\r\na=rtcp-fb:45 nack pli\r\na=rtpmap:46 rtx/90000\r\na=fmtp:46 apt=45\r\na=rtpmap:98 VP9/90000\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=fmtp:98 profile-id=0\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:100 VP9/90000\r\na=rtcp-fb:100 goog-remb\r\na=rtcp-fb:100 transport-cc\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=fmtp:100 profile-id=2\r\na=rtpmap:101 rtx/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:112 H264/90000\r\na=rtcp-fb:112 goog-remb\r\na=rtcp-fb:112 transport-cc\r\na=rtcp-fb:112 ccm fir\r\na=rtcp-fb:112 nack\r\na=rtcp-fb:112 nack pli\r\na=fmtp:112 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=64001f\r\na=rtpmap:113 rtx/90000\r\na=fmtp:113 apt=112\r\na=rtpmap:116 red/90000\r\na=rtpmap:117 rtx/90000\r\na=fmtp:117 apt=116\r\na=rtpmap:118 ulpfec/90000\r\na=ssrc-group:FID 2283393051 2217094472\r\na=ssrc:2283393051 cname:nZKJrFoZdlR/YMl2\r\na=ssrc:2283393051 msid:- 954e172d-c6d1-45c6-a6ec-04c15e63479f\r\na=ssrc:2217094472 cname:nZKJrFoZdlR/YMl2\r\na=ssrc:2217094472 msid:- 954e172d-c6d1-45c6-a6ec-04c15e63479f\r\na=ssrc-group:FID 2212876012 3050791587\r\na=ssrc-group:FID 1740732752 1754553716\r\na=ssrc:2212876012 cname:nZKJrFoZdlR/YMl2\r\na=ssrc:2212876012 msid:- 954e172d-c6d1-45c6-a6ec-04c15e63479f\r\na=ssrc:3050791587 cname:nZKJrFoZdlR/YMl2\r\na=ssrc:3050791587 msid:- 954e172d-c6d1-45c6-a6ec-04c15e63479f\r\na=ssrc:1740732752 cname:nZKJrFoZdlR/YMl2\r\na=ssrc:1740732752 msid:- 954e172d-c6d1-45c6-a6ec-04c15e63479f\r\na=ssrc:1754553716 cname:nZKJrFoZdlR/YMl2\r\na=ssrc:1754553716 msid:- 954e172d-c6d1-45c6-a6ec-04c15e63479f\r\na=ssrc-group:SIM 2283393051 2212876012 1740732752\r\na=x-google-flag:conference\r\n"},"id":"5d4e9683-6928-495c-8113-1472f4bc60b4"}],"type":"connect","version":2,"ice_servers":"acquire","publisher":{"name":"twilio-video.js","sdk_version":"2.25.0","user_agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"},"bandwidth_profile":{"video":{"mode":"collaboration","active_speaker_priority":"standard"}},"media_signaling":{"active_speaker":{"transports":[{"type":"data-channel"}]},"network_quality":{"transports":[{"type":"data-channel"}]},"render_hints":{"transports":[{"type":"data-channel"}]},"publisher_hints":{"transports":[{"type":"data-channel"}]},"track_priority":{"transports":[{"type":"data-channel"}]},"track_switch_off":{"transports":[{"type":"data-channel"}]}},"subscribe":{"rules":[{"type":"include","all":true}],"revision":1},"format":"unified","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTSzJhZjllZWI2OGI1ZDBkMjIyY2Y3Yjk1MGVlYmQwY2QxLTE3MDE4OTg3ODMiLCJncmFudHMiOnsiaWRlbnRpdHkiOiJLaHVzaGJ1IiwidmlkZW8iOnsicm9vbSI6Ikxvd0JhbmR3aWR0aCJ9LCJjaGF0Ijp7InNlcnZpY2Vfc2lkIjoiSVM5ZGNkMTgzN2M1ODE0NmFiOTM4YzNjMmU1NjA2ZGMwYSJ9fSwiaWF0IjoxNzAxODk4NzgzLCJleHAiOjE3MDE5MTMxODMsImlzcyI6IlNLMmFmOWVlYjY4YjVkMGQyMjJjZjdiOTUwZWViZDBjZDEiLCJzdWIiOiJBQzcxZGVlNGM4OWNjNmY4MGFjOWY3MWQ2OWIwMDI1NWMyIn0.lMtzPsafyalezAcR1SXKYSpBPEn3TjuBrllPt1lzoks"},"type":"msg"}
+15:39:43.622 log.js:162 2023-12-06T21:39:43.622Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"body":{"version":2,"type":"connected","peer_connections":[{"id":"5d4e9683-6928-495c-8113-1472f4bc60b4","description":{"type":"answer","sdp":"v=0\r\no=- 3910887583 3910887583 IN IP4 0.0.0.0\r\ns=VMb61e253dff41c4d27935ab944314a649\r\nt=0 0\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\na=ice-lite\r\na=group:BUNDLE 0 1\r\na=msid-semantic:WMS *\r\nm=audio 12969 UDP/TLS/RTP/SAVPF 111 0\r\nc=IN IP4 3.235.111.233\r\na=setup:active\r\na=recvonly\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=mid:0\r\na=rtcp:12969 IN IP4 3.235.111.233\r\na=rtpmap:111 opus/48000/2\r\na=rtpmap:0 PCMU/8000\r\na=rtcp-fb:111 transport-cc\r\na=rtcp-mux\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=ice-ufrag:frN3\r\na=ice-pwd:j8M1RlipOIkrhkdHHVAL4i\r\na=fingerprint:sha-256 6E:BE:54:65:E5:DC:16:2B:99:EA:44:14:16:B7:99:54:35:9D:67:A3:21:40:4A:C4:E6:C7:45:99:81:22:87:F9\r\na=candidate:2 1 UDP 2013266430 3.235.111.233 11695 typ host\r\na=candidate:3 1 UDP 2013266429 3.235.111.233 12969 typ host\r\na=candidate:2 2 UDP 2013266429 3.235.111.233 19612 typ host\r\na=candidate:3 2 UDP 2013266428 3.235.111.233 13322 typ host\r\nm=video 12969 UDP/TLS/RTP/SAVPF 96 106 116 118\r\nc=IN IP4 3.235.111.233\r\na=rtcp-rsize\r\na=setup:active\r\na=recvonly\r\na=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=mid:1\r\na=rtcp:12969 IN IP4 3.235.111.233\r\na=rtpmap:96 VP8/90000\r\na=rtpmap:106 H264/90000\r\na=rtpmap:116 red/90000\r\na=rtpmap:118 ulpfec/90000\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=rtcp-fb:106 goog-remb\r\na=rtcp-fb:106 transport-cc\r\na=rtcp-fb:106 ccm fir\r\na=rtcp-fb:106 nack\r\na=rtcp-fb:106 nack pli\r\na=rtcp-mux\r\na=fmtp:106 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=x-google-flag:conference\r\na=ice-ufrag:frN3\r\na=ice-pwd:j8M1RlipOIkrhkdHHVAL4i\r\na=fingerprint:sha-256 6E:BE:54:65:E5:DC:16:2B:99:EA:44:14:16:B7:99:54:35:9D:67:A3:21:40:4A:C4:E6:C7:45:99:81:22:87:F9\r\na=candidate:2 1 UDP 2013266430 3.235.111.233 11695 typ host\r\na=candidate:3 1 UDP 2013266429 3.235.111.233 12969 typ host\r\na=candidate:2 2 UDP 2013266429 3.235.111.233 19612 typ host\r\na=candidate:3 2 UDP 2013266428 3.235.111.233 13322 typ host\r\n","revision":1}}],"sid":"RM48cb1a6b91a344942c2c0d41e3511963","name":"LowBandwidth","participant":{"sid":"PA45a5ce7232b855d502d7ea9d262fcbfd","identity":"Khushbu","tracks":[{"kind":"video","priority":"standard","id":"954e172d-c6d1-45c6-a6ec-04c15e63479f","enabled":true,"sid":"MT95389972a1a8fcd07d8834cd64d12247","name":"camera-1701898775336","state":"ready"},{"kind":"audio","priority":"standard","id":"f68fd849-f01c-41a1-82ba-a28ee9208b31","enabled":true,"sid":"MT72ca5667129601ff2c9f7db972abd2d4","name":"2564f4e7-1447-4778-a95d-ea23c7302645","state":"ready"}],"revision":3,"state":"connected","media_warnings":[]},"participants":[],"recording":{"enabled":true,"revision":2,"is_recording":true},"subscribed":{"revision":0,"tracks":[]},"published":{"revision":1,"tracks":[{"kind":"video","priority":"standard","id":"954e172d-c6d1-45c6-a6ec-04c15e63479f","enabled":true,"sid":"MT95389972a1a8fcd07d8834cd64d12247","name":"camera-1701898775336","state":"ready"},{"kind":"audio","priority":"standard","id":"f68fd849-f01c-41a1-82ba-a28ee9208b31","enabled":true,"sid":"MT72ca5667129601ff2c9f7db972abd2d4","name":"2564f4e7-1447-4778-a95d-ea23c7302645","state":"ready"}]},"media_signaling":{"track_priority":{"transport":{"type":"data-channel","label":"c8112a1b-575e-45ff-ad54-de0ed5061380"}},"active_speaker":{"transport":{"type":"data-channel","label":"f8de1c68-da05-441c-b3b3-f64c4fefbf8d"}},"render_hints":{"transport":{"type":"data-channel","label":"57843591-a012-4b92-8c18-240933ba21a8"}},"publisher_hints":{"transport":{"type":"data-channel","label":"83140478-e19d-4117-99e8-a55a5ed93666"}},"track_switch_off":{"transport":{"type":"data-channel","label":"3041d89f-5d71-4770-b96c-b8be00c46823"}},"network_quality":{"transport":{"type":"data-channel","label":"006cca8c-c5b0-448c-93e4-61c4163fc04a"}}},"session":"71dee4c89cc6f80ac9f71d69b00255c248cb1a6b91a344942c2c0d41e351196345a5ce7232b855d502d7ea9d262fcbfd49c605a284523e548351f024b1a6cfa7","options":{"media_region":"us1","signaling_region":"us1","session_timeout":30,"signaling_edge":"ashburn","audio_processors":["krisp"]}},"type":"msg"}
+15:39:43.622 log.js:162 2023-12-06T21:39:43.622Z debug [connect #1] Transport connected: {version: 2, type: 'connected', peer_connections: Array(1), sid: 'RM48cb1a6b91a344942c2c0d41e3511963', name: 'LowBandwidth', …}
+15:39:43.623 log.js:162 2023-12-06T21:39:43.623Z debug [PeerConnectionV2 #1: 5d4e9683-6928-495c-8113-1472f4bc60b4] Updated ICE reconnection timeout period: 30000
+15:39:43.625 log.js:162 2023-12-06T21:39:43.625Z info [LocalParticipant #1] Added a new VideoTrackPublication: MT95389972a1a8fcd07d8834cd64d12247
+15:39:43.625 log.js:162 2023-12-06T21:39:43.625Z debug [LocalParticipant #1] VideoTrackPublication: t {trackName: 'camera-1701898775336', trackSid: 'MT95389972a1a8fcd07d8834cd64d12247', kind: 'video', …}
+15:39:43.626 log.js:162 2023-12-06T21:39:43.626Z info [LocalParticipant #1] Added a new AudioTrackPublication: MT72ca5667129601ff2c9f7db972abd2d4
+15:39:43.626 log.js:162 2023-12-06T21:39:43.626Z debug [LocalParticipant #1] AudioTrackPublication: t {trackName: '2564f4e7-1447-4778-a95d-ea23c7302645', trackSid: 'MT72ca5667129601ff2c9f7db972abd2d4', kind: 'audio', …}
+15:39:43.626 log.js:162 2023-12-06T21:39:43.626Z debug [LocalParticipant #1: PA45a5ce7232b855d502d7ea9d262fcbfd] Transitioned to state: connected
+15:39:43.626 log.js:162 2023-12-06T21:39:43.626Z debug [LocalParticipant #1: PA45a5ce7232b855d502d7ea9d262fcbfd] Transitioned to state: connected
+15:39:43.626 log.js:162 2023-12-06T21:39:43.626Z info [LocalParticipant #1: PA45a5ce7232b855d502d7ea9d262fcbfd] reconnected
+15:39:43.626 log.js:162 2023-12-06T21:39:43.626Z info [MediaSignaling #0:active_speaker] setting up msp transport for id: f8de1c68-da05-441c-b3b3-f64c4fefbf8d
+15:39:43.627 log.js:162 2023-12-06T21:39:43.627Z info [MediaSignaling #1:network_quality] setting up msp transport for id: 006cca8c-c5b0-448c-93e4-61c4163fc04a
+15:39:43.627 log.js:162 2023-12-06T21:39:43.627Z info [MediaSignaling #4:track_priority] setting up msp transport for id: c8112a1b-575e-45ff-ad54-de0ed5061380
+15:39:43.627 log.js:162 2023-12-06T21:39:43.627Z info [MediaSignaling #5:track_switch_off] setting up msp transport for id: 3041d89f-5d71-4770-b96c-b8be00c46823
+15:39:43.627 log.js:162 2023-12-06T21:39:43.627Z info [MediaSignaling #2:render_hints] setting up msp transport for id: 57843591-a012-4b92-8c18-240933ba21a8
+15:39:43.627 log.js:162 2023-12-06T21:39:43.627Z info [MediaSignaling #3:publisher_hints] setting up msp transport for id: 83140478-e19d-4117-99e8-a55a5ed93666
+15:39:43.627 log.js:162 2023-12-06T21:39:43.627Z debug [PeerConnectionV2 #1: 5d4e9683-6928-495c-8113-1472f4bc60b4] Setting setEffectiveAdaptiveSimulcast:  true
+15:39:43.628 log.js:162 2023-12-06T21:39:43.628Z debug [connect #1] Transport state changed: connected
+15:39:43.629 log.js:162 2023-12-06T21:39:43.629Z debug [Room #1: RM48cb1a6b91a344942c2c0d41e3511963] Creating a new RemoteParticipant for each ParticipantSignaling in the RoomSignaling
+15:39:43.629 log.js:162 2023-12-06T21:39:43.629Z debug [Room #1: RM48cb1a6b91a344942c2c0d41e3511963] Setting up RemoteParticipant creation for all subsequent ParticipantSignalings that connect to the RoomSignaling
+15:39:43.629 log.js:162 2023-12-06T21:39:43.629Z info [Room #1: RM48cb1a6b91a344942c2c0d41e3511963] Created a new Room: LowBandwidth
+15:39:43.629 log.js:162 2023-12-06T21:39:43.629Z debug [Room #1: RM48cb1a6b91a344942c2c0d41e3511963] Initial RemoteParticipants: []
+15:39:43.629 log.js:162 2023-12-06T21:39:43.629Z debug [connect #1] Creating a new Room: t {localParticipant: t, name: 'LowBandwidth', participants: Map(0), …}
+15:39:43.630 log.js:162 2023-12-06T21:39:43.630Z info [connect #1] Connected to Room: [Room #1: RM48cb1a6b91a344942c2c0d41e3511963]
+15:39:43.630 log.js:162 2023-12-06T21:39:43.630Z info [connect #1] Room name: LowBandwidth
+15:39:43.630 log.js:162 2023-12-06T21:39:43.630Z debug [connect #1] Room: t {localParticipant: t, name: 'LowBandwidth', participants: Map(0), …}
+15:39:43.672 log.js:162 2023-12-06T21:39:43.672Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] Attempting to attach to element: <video class=​"jss162" autoplay playsinline style=​"transform:​ scaleX(-1)​;​ object-fit:​ cover;​">​</video>​
+15:39:43.689 log.js:162 2023-12-06T21:39:43.689Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"body":{"version":2,"type":"update","sid":"RM48cb1a6b91a344942c2c0d41e3511963","name":"LowBandwidth","participant":{"sid":"PA45a5ce7232b855d502d7ea9d262fcbfd","identity":"Khushbu","tracks":[],"revision":1,"state":"connected","media_warnings":[]},"participants":[],"recording":{"enabled":true,"revision":1,"is_recording":false},"subscribe":{"revision":1,"rules":[{"type":"include","all":true}]},"subscribed":{"revision":0,"tracks":[]},"published":{"revision":1,"tracks":[]}},"type":"msg"}
+15:39:43.689 log.js:162 2023-12-06T21:39:43.689Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"body":{"version":2,"type":"update","sid":"RM48cb1a6b91a344942c2c0d41e3511963","name":"LowBandwidth","participants":[],"recording":{"enabled":true,"revision":2,"is_recording":true}},"type":"msg"}
+15:39:43.690 log.js:162 2023-12-06T21:39:43.690Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"body":{"version":2,"type":"update","peer_connections":[{"id":"5d4e9683-6928-495c-8113-1472f4bc60b4","description":{"type":"offer","sdp":"v=0\r\no=- 3910887583 3910887584 IN IP4 0.0.0.0\r\ns=VMb61e253dff41c4d27935ab944314a649\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=ice-lite\r\na=group:BUNDLE 0 1 application0\r\na=msid-semantic:WMS *\r\nm=audio 1 UDP/TLS/RTP/SAVPF 111 0\r\nc=IN IP4 0.0.0.0\r\na=rtpmap:111 opus/48000/2\r\na=rtpmap:0 PCMU/8000\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=rtcp-mux\r\na=setup:actpass\r\na=recvonly\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=mid:0\r\na=ice-ufrag:frN3\r\na=ice-pwd:j8M1RlipOIkrhkdHHVAL4i\r\na=candidate:3 1 UDP 2013266429 3.235.111.233 12969 typ host\r\na=candidate:2 1 UDP 2013266430 3.235.111.233 11695 typ host\r\na=candidate:3 2 UDP 2013266428 3.235.111.233 13322 typ host\r\na=candidate:2 2 UDP 2013266429 3.235.111.233 19612 typ host\r\na=fingerprint:sha-256 6E:BE:54:65:E5:DC:16:2B:99:EA:44:14:16:B7:99:54:35:9D:67:A3:21:40:4A:C4:E6:C7:45:99:81:22:87:F9\r\nm=video 1 UDP/TLS/RTP/SAVPF 96 106 116 118\r\nc=IN IP4 0.0.0.0\r\na=rtpmap:96 VP8/90000\r\na=rtpmap:106 H264/90000\r\na=rtpmap:116 red/90000\r\na=rtpmap:118 ulpfec/90000\r\na=fmtp:106 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=rtcp-mux\r\na=x-google-flag:conference\r\na=rtcp-rsize\r\na=setup:actpass\r\na=recvonly\r\na=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=mid:1\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:106 nack\r\na=rtcp-fb:106 nack pli\r\na=rtcp-fb:106 goog-remb\r\na=rtcp-fb:106 transport-cc\r\na=rtcp-fb:106 ccm fir\r\na=ice-ufrag:frN3\r\na=ice-pwd:j8M1RlipOIkrhkdHHVAL4i\r\na=candidate:3 1 UDP 2013266429 3.235.111.233 12969 typ host\r\na=candidate:2 1 UDP 2013266430 3.235.111.233 11695 typ host\r\na=candidate:3 2 UDP 2013266428 3.235.111.233 13322 typ host\r\na=candidate:2 2 UDP 2013266429 3.235.111.233 19612 typ host\r\na=fingerprint:sha-256 6E:BE:54:65:E5:DC:16:2B:99:EA:44:14:16:B7:99:54:35:9D:67:A3:21:40:4A:C4:E6:C7:45:99:81:22:87:F9\r\nm=application 1 DTLS/SCTP 5000\r\nc=IN IP4 0.0.0.0\r\na=sctpmap:5000 webrtc-datachannel 16\r\na=setup:actpass\r\na=mid:application0\r\na=ice-ufrag:frN3\r\na=ice-pwd:j8M1RlipOIkrhkdHHVAL4i\r\na=candidate:3 1 UDP 2013266429 3.235.111.233 12969 typ host\r\na=candidate:2 1 UDP 2013266430 3.235.111.233 11695 typ host\r\na=candidate:3 2 UDP 2013266428 3.235.111.233 13322 typ host\r\na=candidate:2 2 UDP 2013266429 3.235.111.233 19612 typ host\r\na=fingerprint:sha-256 6E:BE:54:65:E5:DC:16:2B:99:EA:44:14:16:B7:99:54:35:9D:67:A3:21:40:4A:C4:E6:C7:45:99:81:22:87:F9\r\n","revision":2}}],"sid":"RM48cb1a6b91a344942c2c0d41e3511963","name":"LowBandwidth","participant":{"sid":"PA45a5ce7232b855d502d7ea9d262fcbfd","identity":"Khushbu","tracks":[{"kind":"video","priority":"standard","id":"954e172d-c6d1-45c6-a6ec-04c15e63479f","enabled":true,"sid":"MT95389972a1a8fcd07d8834cd64d12247","name":"camera-1701898775336","state":"ready"},{"kind":"audio","priority":"standard","id":"f68fd849-f01c-41a1-82ba-a28ee9208b31","enabled":true,"sid":"MT72ca5667129601ff2c9f7db972abd2d4","name":"2564f4e7-1447-4778-a95d-ea23c7302645","state":"ready"}],"revision":3,"state":"connected","media_warnings":[]},"participants":[],"recording":{"enabled":true,"revision":2,"is_recording":true},"subscribed":{"revision":0,"tracks":[]},"published":{"revision":1,"tracks":[{"kind":"video","priority":"standard","id":"954e172d-c6d1-45c6-a6ec-04c15e63479f","enabled":true,"sid":"MT95389972a1a8fcd07d8834cd64d12247","name":"camera-1701898775336","state":"ready"},{"kind":"audio","priority":"standard","id":"f68fd849-f01c-41a1-82ba-a28ee9208b31","enabled":true,"sid":"MT72ca5667129601ff2c9f7db972abd2d4","name":"2564f4e7-1447-4778-a95d-ea23c7302645","state":"ready"}]}},"type":"msg"}
+15:39:43.692 log.js:162 2023-12-06T21:39:43.692Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"body":{"session":"71dee4c89cc6f80ac9f71d69b00255c248cb1a6b91a344942c2c0d41e351196345a5ce7232b855d502d7ea9d262fcbfd49c605a284523e548351f024b1a6cfa7","type":"update","version":2,"participant":{"revision":5,"tracks":[{"enabled":true,"id":"f68fd849-f01c-41a1-82ba-a28ee9208b31","kind":"audio","name":"2564f4e7-1447-4778-a95d-ea23c7302645","priority":"standard","audio_processor":"krisp"},{"enabled":true,"id":"954e172d-c6d1-45c6-a6ec-04c15e63479f","kind":"video","name":"camera-1701898775336","priority":"low"}]}},"type":"msg"}
+15:39:43.708 log.js:162 2023-12-06T21:39:43.708Z debug [PeerConnectionV2 #1: 5d4e9683-6928-495c-8113-1472f4bc60b4] ICE gathering state is "gathering"
+15:39:43.708 log.js:162 2023-12-06T21:39:43.708Z debug [PeerConnectionV2 #1: 5d4e9683-6928-495c-8113-1472f4bc60b4] Starting ICE gathering timeout: 15000
+15:39:43.708 log.js:162 2023-12-06T21:39:43.708Z debug [PeerConnectionV2 #1: 5d4e9683-6928-495c-8113-1472f4bc60b4] ICE connection state is "checking"
+15:39:43.711 log.js:162 2023-12-06T21:39:43.711Z debug [PeerConnectionV2 #1: 5d4e9683-6928-495c-8113-1472f4bc60b4] _updateEncodings: [0: true, 4], [1: true, 2], [2: true, 1]
+15:39:43.713 log.js:162 2023-12-06T21:39:43.713Z debug [PeerConnectionV2 #1: 5d4e9683-6928-495c-8113-1472f4bc60b4] Clearing ICE gathering timeout
+15:39:43.714 log.js:162 2023-12-06T21:39:43.714Z debug [PeerConnectionV2 #1: 5d4e9683-6928-495c-8113-1472f4bc60b4] Clearing ICE gathering timeout
+15:39:43.722 log.js:162 2023-12-06T21:39:43.722Z debug [PeerConnectionV2 #1: 5d4e9683-6928-495c-8113-1472f4bc60b4] _updateEncodings: [0: true, 4], [1: true, 2], [2: true, 1]
+15:39:43.723 log.js:162 2023-12-06T21:39:43.723Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"body":{"session":"71dee4c89cc6f80ac9f71d69b00255c248cb1a6b91a344942c2c0d41e351196345a5ce7232b855d502d7ea9d262fcbfd49c605a284523e548351f024b1a6cfa7","type":"update","version":2,"peer_connections":[{"description":{"type":"answer","revision":2,"sdp":"v=0\r\no=- 1555033483493745328 3 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1 application0\r\na=msid-semantic: WMS\r\nm=audio 63411 UDP/TLS/RTP/SAVPF 111 0\r\nc=IN IP4 192.168.68.117\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=candidate:3560269881 1 udp 2122260223 192.168.68.117 63411 typ host generation 0 network-id 1 network-cost 10\r\na=candidate:2129576457 1 udp 2122194687 10.104.192.20 54529 typ host generation 0 network-id 2 network-cost 50\r\na=ice-ufrag:MMX+\r\na=ice-pwd:Krq7AwjG5NBe4+rofA630ERt\r\na=ice-options:trickle\r\na=fingerprint:sha-256 F0:6F:9D:D8:7C:8D:1B:D2:EF:56:A6:3C:9E:49:5F:17:65:4D:5B:2B:BD:C5:F8:31:5F:2E:89:A8:30:52:7A:21\r\na=setup:passive\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=sendonly\r\na=msid:- f68fd849-f01c-41a1-82ba-a28ee9208b31\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=fmtp:111 minptime=10;useinbandfec=1\r\na=rtpmap:0 PCMU/8000\r\na=ssrc:1162071322 cname:nZKJrFoZdlR/YMl2\r\na=ssrc:1162071322 msid:- f68fd849-f01c-41a1-82ba-a28ee9208b31\r\nm=video 9 UDP/TLS/RTP/SAVPF 96 106 116 118\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:MMX+\r\na=ice-pwd:Krq7AwjG5NBe4+rofA630ERt\r\na=ice-options:trickle\r\na=fingerprint:sha-256 F0:6F:9D:D8:7C:8D:1B:D2:EF:56:A6:3C:9E:49:5F:17:65:4D:5B:2B:BD:C5:F8:31:5F:2E:89:A8:30:52:7A:21\r\na=setup:passive\r\na=mid:1\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:3 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=sendonly\r\na=msid:- 954e172d-c6d1-45c6-a6ec-04c15e63479f\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 VP8/90000\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=rtpmap:106 H264/90000\r\na=rtcp-fb:106 goog-remb\r\na=rtcp-fb:106 transport-cc\r\na=rtcp-fb:106 ccm fir\r\na=rtcp-fb:106 nack\r\na=rtcp-fb:106 nack pli\r\na=fmtp:106 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:116 red/90000\r\na=rtpmap:118 ulpfec/90000\r\na=ssrc-group:FID 2283393051 2217094472\r\na=ssrc-group:FID 2212876012 3050791587\r\na=ssrc-group:FID 1740732752 1754553716\r\na=ssrc-group:SIM 2283393051 2212876012 1740732752\r\na=ssrc:2283393051 cname:nZKJrFoZdlR/YMl2\r\na=ssrc:2283393051 msid:- 954e172d-c6d1-45c6-a6ec-04c15e63479f\r\na=ssrc:2217094472 cname:nZKJrFoZdlR/YMl2\r\na=ssrc:2217094472 msid:- 954e172d-c6d1-45c6-a6ec-04c15e63479f\r\na=ssrc:2212876012 cname:nZKJrFoZdlR/YMl2\r\na=ssrc:2212876012 msid:- 954e172d-c6d1-45c6-a6ec-04c15e63479f\r\na=ssrc:3050791587 cname:nZKJrFoZdlR/YMl2\r\na=ssrc:3050791587 msid:- 954e172d-c6d1-45c6-a6ec-04c15e63479f\r\na=ssrc:1740732752 cname:nZKJrFoZdlR/YMl2\r\na=ssrc:1740732752 msid:- 954e172d-c6d1-45c6-a6ec-04c15e63479f\r\na=ssrc:1754553716 cname:nZKJrFoZdlR/YMl2\r\na=ssrc:1754553716 msid:- 954e172d-c6d1-45c6-a6ec-04c15e63479f\r\na=x-google-flag:conference\r\nm=application 9 DTLS/SCTP 5000\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:MMX+\r\na=ice-pwd:Krq7AwjG5NBe4+rofA630ERt\r\na=ice-options:trickle\r\na=fingerprint:sha-256 F0:6F:9D:D8:7C:8D:1B:D2:EF:56:A6:3C:9E:49:5F:17:65:4D:5B:2B:BD:C5:F8:31:5F:2E:89:A8:30:52:7A:21\r\na=setup:passive\r\na=mid:application0\r\na=sctpmap:5000 webrtc-datachannel 1024\r\n"},"id":"5d4e9683-6928-495c-8113-1472f4bc60b4"}],"participant":{"revision":5,"tracks":[{"enabled":true,"id":"f68fd849-f01c-41a1-82ba-a28ee9208b31","kind":"audio","name":"2564f4e7-1447-4778-a95d-ea23c7302645","priority":"standard","audio_processor":"krisp"},{"enabled":true,"id":"954e172d-c6d1-45c6-a6ec-04c15e63479f","kind":"video","name":"camera-1701898775336","priority":"low"}]}},"type":"msg"}
+15:39:43.740 log.js:162 2023-12-06T21:39:43.740Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"body":{"version":2,"type":"update","sid":"RM48cb1a6b91a344942c2c0d41e3511963","name":"LowBandwidth","participant":{"sid":"PA45a5ce7232b855d502d7ea9d262fcbfd","identity":"Khushbu","tracks":[{"kind":"video","priority":"low","id":"954e172d-c6d1-45c6-a6ec-04c15e63479f","enabled":true,"sid":"MT95389972a1a8fcd07d8834cd64d12247","name":"camera-1701898775336","state":"ready"},{"kind":"audio","priority":"standard","id":"f68fd849-f01c-41a1-82ba-a28ee9208b31","enabled":true,"sid":"MT72ca5667129601ff2c9f7db972abd2d4","name":"2564f4e7-1447-4778-a95d-ea23c7302645","state":"ready"}],"revision":5,"state":"connected","media_warnings":[]},"participants":[],"recording":{"enabled":true,"revision":2,"is_recording":true},"subscribed":{"revision":0,"tracks":[]},"published":{"revision":2,"tracks":[{"kind":"video","priority":"low","id":"954e172d-c6d1-45c6-a6ec-04c15e63479f","enabled":true,"sid":"MT95389972a1a8fcd07d8834cd64d12247","name":"camera-1701898775336","state":"ready"},{"kind":"audio","priority":"standard","id":"f68fd849-f01c-41a1-82ba-a28ee9208b31","enabled":true,"sid":"MT72ca5667129601ff2c9f7db972abd2d4","name":"2564f4e7-1447-4778-a95d-ea23c7302645","state":"ready"}]}},"type":"msg"}
+15:39:43.805 log.js:162 2023-12-06T21:39:43.805Z debug [PeerConnectionV2 #1: 5d4e9683-6928-495c-8113-1472f4bc60b4] ICE connection state is "connected"
+15:39:43.806 log.js:162 2023-12-06T21:39:43.806Z debug [PeerConnectionV2 #1: 5d4e9683-6928-495c-8113-1472f4bc60b4] ICE gathering state is "complete"
+15:39:43.806 log.js:162 2023-12-06T21:39:43.806Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"body":{"session":"71dee4c89cc6f80ac9f71d69b00255c248cb1a6b91a344942c2c0d41e351196345a5ce7232b855d502d7ea9d262fcbfd49c605a284523e548351f024b1a6cfa7","type":"update","version":2,"peer_connections":[{"ice":{"candidates":[],"ufrag":"MMX+","complete":true,"revision":1},"id":"5d4e9683-6928-495c-8113-1472f4bc60b4"}],"participant":{"revision":5,"tracks":[{"enabled":true,"id":"f68fd849-f01c-41a1-82ba-a28ee9208b31","kind":"audio","name":"2564f4e7-1447-4778-a95d-ea23c7302645","priority":"standard","audio_processor":"krisp"},{"enabled":true,"id":"954e172d-c6d1-45c6-a6ec-04c15e63479f","kind":"video","name":"camera-1701898775336","priority":"low"}]}},"type":"msg"}
+15:39:43.969 log.js:162 2023-12-06T21:39:43.969Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] Adding VideoProcessor to the LocalVideoTrack
+15:39:43.970 log.js:162 2023-12-06T21:39:43.970Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] Adding VideoProcessor to the VideoTrack t {_currentMask: Uint8ClampedArray(0), _debounce: 2, _dummyImageData: ImageData, _historyCount: 5, _inferenceConfig: {…}, …}
+15:39:43.970 log.js:162 2023-12-06T21:39:43.970Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] VideoProcessor:add {captureHeight: 720, captureWidth: 1280, inputFrameRate: 24, isRemoteVideoTrack: 'false', name: 'VirtualBackgroundProcessor', …}
+15:39:43.970 log.js:162 2023-12-06T21:39:43.970Z info [connect #1] event {elapsedTime: 824, group: 'video-processor', level: 'info', name: 'add', timestamp: 1701898783970, …}
+15:39:43.970 log.js:162 2023-12-06T21:39:43.970Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] Reattaching all elements to update mediaStreamTrack
+15:39:43.971 log.js:162 2023-12-06T21:39:43.971Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] VideoProcessor:start {captureHeight: 720, captureWidth: 1280, inputFrameRate: 24, isRemoteVideoTrack: 'false', name: 'VirtualBackgroundProcessor', …}
+15:39:43.972 log.js:162 2023-12-06T21:39:43.972Z info [connect #1] event {elapsedTime: 826, group: 'video-processor', level: 'info', name: 'start', timestamp: 1701898783972, …}
+15:39:43.972 log.js:162 2023-12-06T21:39:43.972Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] Start capturing frames
+15:39:43.972 log.js:162 2023-12-06T21:39:43.972Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] Updating LocalVideoTrack's MediaStreamTrack with the processed MediaStreamTrack CanvasCaptureMediaStreamTrack {canvas: canvas, kind: 'video', id: '111abe64-1146-48d6-a073-fd5464bfd408', label: 'XV2xc27pz6THpXKSGEaLCDO8QptApQmk3aDlP+dSPaemvLMlLPhHKIRVdXCiNkxfmnyLXqcBGYaUzPrDmCI8Mw==', enabled: true, …}
+15:39:43.978 log.js:162 2023-12-06T21:39:43.978Z debug [PeerConnectionV2 #1: 5d4e9683-6928-495c-8113-1472f4bc60b4] _updateEncodings: [0: true, 4], [1: true, 2], [2: true, 1]
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:55.915 [Violation] 'setTimeout' handler took <N>ms
+15:39:44.191 log.js:162 2023-12-06T21:39:44.191Z debug [MediaSignaling #3:publisher_hints] publisher_hints transport ready: t {_events: {…}, _eventsCount: 0, _maxListeners: undefined, _dataChannel: RTCDataChannel, _messageQueue: Array(0)}
+15:39:44.192 log.js:162 2023-12-06T21:39:44.192Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"body":{"version":2,"type":"update","sid":"RM48cb1a6b91a344942c2c0d41e3511963","name":"LowBandwidth","participant":{"sid":"PA45a5ce7232b855d502d7ea9d262fcbfd","identity":"Khushbu","tracks":[{"kind":"video","priority":"low","id":"954e172d-c6d1-45c6-a6ec-04c15e63479f","enabled":true,"sid":"MT95389972a1a8fcd07d8834cd64d12247","name":"camera-1701898775336","state":"ready"},{"kind":"audio","priority":"standard","id":"f68fd849-f01c-41a1-82ba-a28ee9208b31","enabled":true,"sid":"MT72ca5667129601ff2c9f7db972abd2d4","name":"2564f4e7-1447-4778-a95d-ea23c7302645","state":"ready"}],"revision":5,"state":"connected","media_warnings":[]},"participants":[],"recording":{"enabled":true,"revision":2,"is_recording":true},"subscribed":{"revision":0,"tracks":[]},"published":{"revision":2,"tracks":[{"kind":"video","priority":"low","id":"954e172d-c6d1-45c6-a6ec-04c15e63479f","enabled":true,"sid":"MT95389972a1a8fcd07d8834cd64d12247","name":"camera-1701898775336","state":"ready"},{"kind":"audio","priority":"standard","id":"f68fd849-f01c-41a1-82ba-a28ee9208b31","enabled":true,"sid":"MT72ca5667129601ff2c9f7db972abd2d4","name":"2564f4e7-1447-4778-a95d-ea23c7302645","state":"ready"}]}},"type":"msg"}
+15:39:44.234 BackgroundProcessor.ts:323 Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+t._getResizedInputImageData @ BackgroundProcessor.ts:323
+(anonymous) @ BackgroundProcessor.ts:301
+(anonymous) @ Processor.ts:5
+(anonymous) @ Processor.ts:5
+(anonymous) @ Processor.ts:5
+i @ Processor.ts:5
+t._createPersonMask @ BackgroundProcessor.ts:295
+(anonymous) @ BackgroundProcessor.ts:252
+(anonymous) @ Processor.ts:5
+(anonymous) @ Processor.ts:5
+(anonymous) @ Processor.ts:5
+i @ Processor.ts:5
+t.processFrame @ BackgroundProcessor.ts:215
+i @ videotrack.js:168
+setTimeout (async)
+r @ videotrack.js:140
+(anonymous) @ videotrack.js:181
+Promise.finally (async)
+i @ videotrack.js:179
+setTimeout (async)
+r @ videotrack.js:140
+(anonymous) @ videotrack.js:181
+Promise.finally (async)
+i @ videotrack.js:179
+setTimeout (async)
+r @ videotrack.js:140
+(anonymous) @ videotrack.js:184
+Promise.then (async)
+t._captureFrames @ videotrack.js:131
+t.addProcessor @ videotrack.js:305
+t.addProcessor @ localvideotrack.js:117
+(anonymous) @ useBackgroundSettings.ts:151
+(anonymous) @ useBackgroundSettings.ts:185
+f @ regeneratorRuntime.js:86
+(anonymous) @ regeneratorRuntime.js:66
+(anonymous) @ regeneratorRuntime.js:117
+r @ asyncToGenerator.js:3
+s @ asyncToGenerator.js:25
+Promise.then (async)
+r @ asyncToGenerator.js:13
+s @ asyncToGenerator.js:25
+(anonymous) @ asyncToGenerator.js:32
+(anonymous) @ asyncToGenerator.js:21
+(anonymous) @ useBackgroundSettings.ts:162
+(anonymous) @ useBackgroundSettings.ts:190
+us @ react-dom.production.min.js:211
+Su @ react-dom.production.min.js:257
+t.unstable_runWithPriority @ scheduler.production.min.js:19
+Gi @ react-dom.production.min.js:122
+_u @ react-dom.production.min.js:257
+su @ react-dom.production.min.js:239
+(anonymous) @ react-dom.production.min.js:123
+t.unstable_runWithPriority @ scheduler.production.min.js:19
+Gi @ react-dom.production.min.js:122
+Xi @ react-dom.production.min.js:123
+Yi @ react-dom.production.min.js:122
+nu @ react-dom.production.min.js:230
+bo @ react-dom.production.min.js:163
+(anonymous) @ useRoom.tsx:54
+Promise.then (async)
+(anonymous) @ cancelablepromise.js:110
+(anonymous) @ cancelablepromise.js:40
+e @ cancelablepromise.js:39
+e.then @ cancelablepromise.js:109
+(anonymous) @ useRoom.tsx:24
+(anonymous) @ DeviceSelectionScreen.tsx:88
+Promise.then (async)
+onClick @ DeviceSelectionScreen.tsx:87
+s @ react-dom.production.min.js:14
+p @ react-dom.production.min.js:14
+(anonymous) @ react-dom.production.min.js:14
+g @ react-dom.production.min.js:15
+st @ react-dom.production.min.js:52
+at @ react-dom.production.min.js:51
+ut @ react-dom.production.min.js:52
+ht @ react-dom.production.min.js:56
+L @ react-dom.production.min.js:287
+U @ react-dom.production.min.js:19
+$t @ react-dom.production.min.js:70
+Jt @ react-dom.production.min.js:69
+t.unstable_runWithPriority @ scheduler.production.min.js:19
+Gi @ react-dom.production.min.js:122
+D @ react-dom.production.min.js:287
+Xt @ react-dom.production.min.js:68
+15:39:44.501 log.js:162 2023-12-06T21:39:44.501Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:39:45.544 log.js:162 2023-12-06T21:39:45.544Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:39:46.594 log.js:162 2023-12-06T21:39:46.594Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:39:47.393 log.js:162 2023-12-06T21:39:47.393Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+15:39:47.644 log.js:162 2023-12-06T21:39:47.644Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:39:48.612 log.js:162 2023-12-06T21:39:48.612Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+15:39:48.701 log.js:162 2023-12-06T21:39:48.701Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:39:49.742 log.js:162 2023-12-06T21:39:49.742Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:39:50.793 log.js:162 2023-12-06T21:39:50.793Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:39:51.508 log.js:162 2023-12-06T21:39:51.508Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+15:39:51.856 log.js:162 2023-12-06T21:39:51.856Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:39:52.936 log.js:162 2023-12-06T21:39:52.936Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:39:53.414 log.js:162 2023-12-06T21:39:53.414Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+15:39:53.557 log.js:162 2023-12-06T21:39:53.557Z debug [MediaSignaling #3:publisher_hints] Incoming:  {publisher: {…}, type: 'publisher_hints'}
+15:39:53.558 log.js:162 2023-12-06T21:39:53.558Z debug [PeerConnectionV2 #1: 5d4e9683-6928-495c-8113-1472f4bc60b4] layer:0, active:true => true
+15:39:53.558 log.js:162 2023-12-06T21:39:53.558Z debug [PeerConnectionV2 #1: 5d4e9683-6928-495c-8113-1472f4bc60b4] layer:1, active:true => true
+15:39:53.558 log.js:162 2023-12-06T21:39:53.558Z debug [PeerConnectionV2 #1: 5d4e9683-6928-495c-8113-1472f4bc60b4] layer:2, active:true => true
+15:39:53.559 log.js:162 2023-12-06T21:39:53.558Z debug [PeerConnectionV2 #1: 5d4e9683-6928-495c-8113-1472f4bc60b4] _updateEncodings: [0: true, 4], [1: true, 2], [2: true, 1]
+15:39:53.559 log.js:162 2023-12-06T21:39:53.559Z debug [MediaSignaling #3:publisher_hints] Outgoing:  {type: 'publisher_hints', id: 1, hints: Array(1)}
+15:39:53.628 getstats.js:542 Uncaught (in promise) TypeError: Cannot read properties of null (reading 'frameWidth')
+    at getstats.js:542:51
+    at Array.forEach (<anonymous>)
+    at getstats.js:494:15
+    at getstats.js:351:15
+(anonymous) @ getstats.js:542
+(anonymous) @ getstats.js:494
+(anonymous) @ getstats.js:351
+Promise.then (async)
+(anonymous) @ getstats.js:350
+m @ getstats.js:343
+r.map.Object.assign.isRemote @ getstats.js:316
+(anonymous) @ getstats.js:61
+(anonymous) @ getstats.js:60
+(anonymous) @ index.js:121
+t.flatMap @ index.js:120
+(anonymous) @ getstats.js:51
+e.exports @ getstats.js:28
+t.getStats @ peerconnection.js:1635
+(anonymous) @ peerconnectionmanager.js:362
+t.getStats @ peerconnectionmanager.js:362
+t.getStats @ room.js:563
+(anonymous) @ room.js:721
+setInterval (async)
+(anonymous) @ room.js:720
+t @ room.js:164
+(anonymous) @ cancelableroomsignalingpromise.js:127
+l @ events.js:243
+a.emit @ events.js:153
+r @ twilioconnectiontransport.js:557
+a.emit @ events.js:153
+t._handleMessage @ twilioconnection.js:439
+(anonymous) @ twilioconnection.js:316
+15:39:54.001 log.js:162 2023-12-06T21:39:54.001Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:39:54.138 log.js:162 2023-12-06T21:39:54.138Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] VideoProcessor:stats {outputFrameRate: 22.75, captureFrameDelay: 29, imageCompositionDelay: 0.28, inputImageResizeDelay: 7.17, processFrameDelay: 15.3, …}
+15:39:54.138 log.js:162 2023-12-06T21:39:54.138Z info [connect #1] event {elapsedTime: 10992, group: 'video-processor', level: 'info', name: 'stats', timestamp: 1701898794138, …}
+15:39:55.077 log.js:162 2023-12-06T21:39:55.077Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:39:55.593 log.js:162 2023-12-06T21:39:55.593Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+15:39:56.150 log.js:162 2023-12-06T21:39:56.150Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:39:57.189 log.js:162 2023-12-06T21:39:57.189Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:39:58.218 log.js:162 2023-12-06T21:39:58.218Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+15:39:58.232 log.js:162 2023-12-06T21:39:58.232Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:39:59.291 log.js:162 2023-12-06T21:39:59.291Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:39:59.691 log.js:162 2023-12-06T21:39:59.691Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+15:40:00.330 log.js:162 2023-12-06T21:40:00.330Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:01.401 log.js:162 2023-12-06T21:40:01.401Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:02.469 log.js:162 2023-12-06T21:40:02.469Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:03.039 log.js:162 2023-12-06T21:40:03.039Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+15:40:03.544 log.js:162 2023-12-06T21:40:03.544Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:03.631 getstats.js:542 Uncaught (in promise) TypeError: Cannot read properties of null (reading 'frameWidth')
+    at getstats.js:542:51
+    at Array.forEach (<anonymous>)
+    at getstats.js:494:15
+    at getstats.js:351:15
+(anonymous) @ getstats.js:542
+(anonymous) @ getstats.js:494
+(anonymous) @ getstats.js:351
+Promise.then (async)
+(anonymous) @ getstats.js:350
+m @ getstats.js:343
+r.map.Object.assign.isRemote @ getstats.js:316
+(anonymous) @ getstats.js:61
+(anonymous) @ getstats.js:60
+(anonymous) @ index.js:121
+t.flatMap @ index.js:120
+(anonymous) @ getstats.js:51
+e.exports @ getstats.js:28
+t.getStats @ peerconnection.js:1635
+(anonymous) @ peerconnectionmanager.js:362
+t.getStats @ peerconnectionmanager.js:362
+t.getStats @ room.js:563
+(anonymous) @ room.js:721
+setInterval (async)
+(anonymous) @ room.js:720
+t @ room.js:164
+(anonymous) @ cancelableroomsignalingpromise.js:127
+l @ events.js:243
+a.emit @ events.js:153
+r @ twilioconnectiontransport.js:557
+a.emit @ events.js:153
+t._handleMessage @ twilioconnection.js:439
+(anonymous) @ twilioconnection.js:316
+15:40:03.799 log.js:162 2023-12-06T21:40:03.799Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+15:40:04.483 log.js:162 2023-12-06T21:40:04.483Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] VideoProcessor:stats {outputFrameRate: 22.44, captureFrameDelay: 29.07, imageCompositionDelay: 0.28, inputImageResizeDelay: 7.71, processFrameDelay: 15.54, …}
+15:40:04.483 log.js:162 2023-12-06T21:40:04.483Z info [connect #1] event {elapsedTime: 21337, group: 'video-processor', level: 'info', name: 'stats', timestamp: 1701898804483, …}
+15:40:04.606 log.js:162 2023-12-06T21:40:04.606Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:05.651 log.js:162 2023-12-06T21:40:05.651Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:06.704 log.js:162 2023-12-06T21:40:06.704Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:07.761 log.js:162 2023-12-06T21:40:07.761Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:07.842 log.js:162 2023-12-06T21:40:07.842Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+15:40:07.896 log.js:162 2023-12-06T21:40:07.896Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+15:40:08.834 log.js:162 2023-12-06T21:40:08.834Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:09.876 log.js:162 2023-12-06T21:40:09.876Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:10.941 log.js:162 2023-12-06T21:40:10.941Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:12.013 log.js:162 2023-12-06T21:40:12.013Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+15:40:12.013 log.js:162 2023-12-06T21:40:12.013Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:12.643 log.js:162 2023-12-06T21:40:12.643Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+15:40:13.054 log.js:162 2023-12-06T21:40:13.054Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:13.644 getstats.js:542 Uncaught (in promise) TypeError: Cannot read properties of null (reading 'frameWidth')
+    at getstats.js:542:51
+    at Array.forEach (<anonymous>)
+    at getstats.js:494:15
+    at getstats.js:351:15
+(anonymous) @ getstats.js:542
+(anonymous) @ getstats.js:494
+(anonymous) @ getstats.js:351
+Promise.then (async)
+(anonymous) @ getstats.js:350
+m @ getstats.js:343
+r.map.Object.assign.isRemote @ getstats.js:316
+(anonymous) @ getstats.js:61
+(anonymous) @ getstats.js:60
+(anonymous) @ index.js:121
+t.flatMap @ index.js:120
+(anonymous) @ getstats.js:51
+e.exports @ getstats.js:28
+t.getStats @ peerconnection.js:1635
+(anonymous) @ peerconnectionmanager.js:362
+t.getStats @ peerconnectionmanager.js:362
+t.getStats @ room.js:563
+(anonymous) @ room.js:721
+setInterval (async)
+(anonymous) @ room.js:720
+t @ room.js:164
+(anonymous) @ cancelableroomsignalingpromise.js:127
+l @ events.js:243
+a.emit @ events.js:153
+r @ twilioconnectiontransport.js:557
+a.emit @ events.js:153
+t._handleMessage @ twilioconnection.js:439
+(anonymous) @ twilioconnection.js:316
+15:40:14.265 log.js:162 2023-12-06T21:40:14.265Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:14.737 log.js:162 2023-12-06T21:40:14.737Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] VideoProcessor:stats {outputFrameRate: 22.95, captureFrameDelay: 29.19, imageCompositionDelay: 0.27, inputImageResizeDelay: 6.78, processFrameDelay: 14.37, …}
+15:40:14.737 log.js:162 2023-12-06T21:40:14.737Z info [connect #1] event {elapsedTime: 31591, group: 'video-processor', level: 'info', name: 'stats', timestamp: 1701898814737, …}
+15:40:15.418 log.js:162 2023-12-06T21:40:15.418Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:16.111 log.js:162 2023-12-06T21:40:16.111Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+15:40:16.471 log.js:162 2023-12-06T21:40:16.471Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:17.464 log.js:162 2023-12-06T21:40:17.464Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+15:40:17.513 log.js:162 2023-12-06T21:40:17.513Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:18.568 log.js:162 2023-12-06T21:40:18.568Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:19.635 log.js:162 2023-12-06T21:40:19.635Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:20.196 log.js:162 2023-12-06T21:40:20.196Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+15:40:20.723 log.js:162 2023-12-06T21:40:20.723Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:21.767 log.js:162 2023-12-06T21:40:21.767Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:22.264 log.js:162 2023-12-06T21:40:22.264Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+15:40:22.814 log.js:162 2023-12-06T21:40:22.814Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:23.627 getstats.js:542 Uncaught (in promise) TypeError: Cannot read properties of null (reading 'frameWidth')
+    at getstats.js:542:51
+    at Array.forEach (<anonymous>)
+    at getstats.js:494:15
+    at getstats.js:351:15
+(anonymous) @ getstats.js:542
+(anonymous) @ getstats.js:494
+(anonymous) @ getstats.js:351
+Promise.then (async)
+(anonymous) @ getstats.js:350
+m @ getstats.js:343
+r.map.Object.assign.isRemote @ getstats.js:316
+(anonymous) @ getstats.js:61
+(anonymous) @ getstats.js:60
+(anonymous) @ index.js:121
+t.flatMap @ index.js:120
+(anonymous) @ getstats.js:51
+e.exports @ getstats.js:28
+t.getStats @ peerconnection.js:1635
+(anonymous) @ peerconnectionmanager.js:362
+t.getStats @ peerconnectionmanager.js:362
+t.getStats @ room.js:563
+(anonymous) @ room.js:721
+setInterval (async)
+(anonymous) @ room.js:720
+t @ room.js:164
+(anonymous) @ cancelableroomsignalingpromise.js:127
+l @ events.js:243
+a.emit @ events.js:153
+r @ twilioconnectiontransport.js:557
+a.emit @ events.js:153
+t._handleMessage @ twilioconnection.js:439
+(anonymous) @ twilioconnection.js:316
+15:40:23.892 log.js:162 2023-12-06T21:40:23.892Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:24.202 log.js:162 2023-12-06T21:40:24.202Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+15:40:24.945 log.js:162 2023-12-06T21:40:24.945Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:24.985 log.js:162 2023-12-06T21:40:24.985Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] VideoProcessor:stats {outputFrameRate: 22.82, captureFrameDelay: 29.58, imageCompositionDelay: 0.18, inputImageResizeDelay: 6.62, processFrameDelay: 14.33, …}
+15:40:24.985 log.js:162 2023-12-06T21:40:24.985Z info [connect #1] event {elapsedTime: 41839, group: 'video-processor', level: 'info', name: 'stats', timestamp: 1701898824985, …}
+15:40:26.014 log.js:162 2023-12-06T21:40:26.014Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:27.068 log.js:162 2023-12-06T21:40:27.068Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+15:40:27.312 log.js:162 2023-12-06T21:40:27.312Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:28.632 log.js:162 2023-12-06T21:40:28.632Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:28.675 log.js:162 2023-12-06T21:40:28.675Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+15:40:29.693 log.js:162 2023-12-06T21:40:29.693Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:30.757 log.js:162 2023-12-06T21:40:30.757Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:31.842 log.js:162 2023-12-06T21:40:31.842Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}local: {level: 3}type: "network_quality"[[Prototype]]: Object
+15:40:31.869 log.js:162 2023-12-06T21:40:31.869Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+15:40:32.473 log.js:162 2023-12-06T21:40:32.473Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+15:40:32.913 log.js:162 2023-12-06T21:40:32.913Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:33.627 getstats.js:542 Uncaught (in promise) TypeError: Cannot read properties of null (reading 'frameWidth')
+    at getstats.js:542:51
+    at Array.forEach (<anonymous>)
+    at getstats.js:494:15
+    at getstats.js:351:15
+(anonymous) @ getstats.js:542
+(anonymous) @ getstats.js:494
+(anonymous) @ getstats.js:351
+Promise.then (async)
+(anonymous) @ getstats.js:350
+m @ getstats.js:343
+r.map.Object.assign.isRemote @ getstats.js:316
+(anonymous) @ getstats.js:61
+(anonymous) @ getstats.js:60
+(anonymous) @ index.js:121
+t.flatMap @ index.js:120
+(anonymous) @ getstats.js:51
+e.exports @ getstats.js:28
+t.getStats @ peerconnection.js:1635
+(anonymous) @ peerconnectionmanager.js:362
+t.getStats @ peerconnectionmanager.js:362
+t.getStats @ room.js:563
+(anonymous) @ room.js:721
+setInterval (async)
+(anonymous) @ room.js:720
+t @ room.js:164
+(anonymous) @ cancelableroomsignalingpromise.js:127
+l @ events.js:243
+a.emit @ events.js:153
+r @ twilioconnectiontransport.js:557
+a.emit @ events.js:153
+t._handleMessage @ twilioconnection.js:439
+(anonymous) @ twilioconnection.js:316
+15:40:33.961 log.js:162 2023-12-06T21:40:33.961Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:35.021 log.js:162 2023-12-06T21:40:35.021Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:35.142 log.js:162 2023-12-06T21:40:35.142Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] VideoProcessor:stats {outputFrameRate: 23.32, captureFrameDelay: 29.6, imageCompositionDelay: 0.2, inputImageResizeDelay: 5.54, processFrameDelay: 13.24, …}
+15:40:35.143 log.js:162 2023-12-06T21:40:35.142Z info [connect #1] event {elapsedTime: 51996, group: 'video-processor', level: 'info', name: 'stats', timestamp: 1701898835142, …}
+15:40:36.081 log.js:162 2023-12-06T21:40:36.081Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:36.503 log.js:162 2023-12-06T21:40:36.503Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+15:40:36.676 log.js:162 2023-12-06T21:40:36.676Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+15:40:37.278 log.js:162 2023-12-06T21:40:37.278Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:38.330 log.js:162 2023-12-06T21:40:38.330Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:39.419 log.js:162 2023-12-06T21:40:39.419Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:40.466 log.js:162 2023-12-06T21:40:40.466Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:40.767 log.js:162 2023-12-06T21:40:40.767Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+15:40:41.477 log.js:162 2023-12-06T21:40:41.477Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+15:40:41.549 log.js:162 2023-12-06T21:40:41.549Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:42.664 log.js:162 2023-12-06T21:40:42.664Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:43.629 getstats.js:542 Uncaught (in promise) TypeError: Cannot read properties of null (reading 'frameWidth')
+    at getstats.js:542:51
+    at Array.forEach (<anonymous>)
+    at getstats.js:494:15
+    at getstats.js:351:15
+(anonymous) @ getstats.js:542
+(anonymous) @ getstats.js:494
+(anonymous) @ getstats.js:351
+Promise.then (async)
+(anonymous) @ getstats.js:350
+m @ getstats.js:343
+r.map.Object.assign.isRemote @ getstats.js:316
+(anonymous) @ getstats.js:61
+(anonymous) @ getstats.js:60
+(anonymous) @ index.js:121
+t.flatMap @ index.js:120
+(anonymous) @ getstats.js:51
+e.exports @ getstats.js:28
+t.getStats @ peerconnection.js:1635
+(anonymous) @ peerconnectionmanager.js:362
+t.getStats @ peerconnectionmanager.js:362
+t.getStats @ room.js:563
+(anonymous) @ room.js:721
+15:40:43.803 log.js:162 2023-12-06T21:40:43.803Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:44.598 log.js:162 2023-12-06T21:40:44.598Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+15:40:44.903 log.js:162 2023-12-06T21:40:44.903Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:45.327 log.js:162 2023-12-06T21:40:45.327Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] VideoProcessor:stats {outputFrameRate: 22.93, captureFrameDelay: 29.58, imageCompositionDelay: 0.22, inputImageResizeDelay: 6.2, processFrameDelay: 14.05, …}
+15:40:45.328 log.js:162 2023-12-06T21:40:45.328Z info [connect #1] event {elapsedTime: 62182, group: 'video-processor', level: 'info', name: 'stats', timestamp: 1701898845328, …}
+15:40:46.019 log.js:162 2023-12-06T21:40:46.019Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:46.279 log.js:162 2023-12-06T21:40:46.279Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+15:40:47.094 log.js:162 2023-12-06T21:40:47.094Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:48.145 log.js:162 2023-12-06T21:40:48.145Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:48.604 log.js:162 2023-12-06T21:40:48.604Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+15:40:49.208 log.js:162 2023-12-06T21:40:49.208Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:50.266 log.js:162 2023-12-06T21:40:50.266Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}local: {level: 4}type: "network_quality"[[Prototype]]: Object
+15:40:51.082 log.js:162 2023-12-06T21:40:51.082Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+15:40:51.327 log.js:162 2023-12-06T21:40:51.327Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:52.381 log.js:162 2023-12-06T21:40:52.381Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:52.692 log.js:162 2023-12-06T21:40:52.692Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+15:40:53.452 log.js:162 2023-12-06T21:40:53.452Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:53.630 getstats.js:542 Uncaught (in promise) TypeError: Cannot read properties of null (reading 'frameWidth')
+    at getstats.js:542:51
+    at Array.forEach (<anonymous>)
+    at getstats.js:494:15
+    at getstats.js:351:15
+(anonymous) @ getstats.js:542
+(anonymous) @ getstats.js:494
+(anonymous) @ getstats.js:351
+Promise.then (async)
+(anonymous) @ getstats.js:350
+m @ getstats.js:343
+r.map.Object.assign.isRemote @ getstats.js:316
+(anonymous) @ getstats.js:61
+(anonymous) @ getstats.js:60
+(anonymous) @ index.js:121
+t.flatMap @ index.js:120
+(anonymous) @ getstats.js:51
+e.exports @ getstats.js:28
+t.getStats @ peerconnection.js:1635
+(anonymous) @ peerconnectionmanager.js:362
+t.getStats @ peerconnectionmanager.js:362
+t.getStats @ room.js:563
+(anonymous) @ room.js:721
+15:40:54.566 log.js:162 2023-12-06T21:40:54.566Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:55.571 log.js:162 2023-12-06T21:40:55.571Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] VideoProcessor:stats {outputFrameRate: 22.68, captureFrameDelay: 28.73, imageCompositionDelay: 0.26, inputImageResizeDelay: 7.5, processFrameDelay: 15.37, …}
+15:40:55.571 log.js:162 2023-12-06T21:40:55.571Z info [connect #1] event {elapsedTime: 72425, group: 'video-processor', level: 'info', name: 'stats', timestamp: 1701898855571, …}
+15:40:55.634 log.js:162 2023-12-06T21:40:55.634Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:55.889 log.js:162 2023-12-06T21:40:55.889Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+15:40:56.686 log.js:162 2023-12-06T21:40:56.686Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}local: {level: 4}type: "network_quality"[[Prototype]]: Object
+15:40:56.794 log.js:162 2023-12-06T21:40:56.794Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+15:40:57.759 log.js:162 2023-12-06T21:40:57.759Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:58.819 log.js:162 2023-12-06T21:40:58.819Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:40:59.887 log.js:162 2023-12-06T21:40:59.886Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:41:00.690 log.js:162 2023-12-06T21:41:00.690Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"heartbeat"}
+15:41:00.894 log.js:162 2023-12-06T21:41:00.894Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Incoming: {"type":"heartbeat"}
+15:41:00.933 log.js:162 2023-12-06T21:41:00.933Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:41:01.988 log.js:162 2023-12-06T21:41:01.988Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:41:03.032 log.js:162 2023-12-06T21:41:03.032Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:41:03.628 getstats.js:542 Uncaught (in promise) TypeError: Cannot read properties of null (reading 'frameWidth')
+    at getstats.js:542:51
+    at Array.forEach (<anonymous>)
+    at getstats.js:494:15
+    at getstats.js:351:15
+(anonymous) @ getstats.js:542
+(anonymous) @ getstats.js:494
+(anonymous) @ getstats.js:351
+Promise.then (async)
+(anonymous) @ getstats.js:350
+m @ getstats.js:343
+r.map.Object.assign.isRemote @ getstats.js:316
+(anonymous) @ getstats.js:61
+(anonymous) @ getstats.js:60
+(anonymous) @ index.js:121
+t.flatMap @ index.js:120
+(anonymous) @ getstats.js:51
+e.exports @ getstats.js:28
+t.getStats @ peerconnection.js:1635
+(anonymous) @ peerconnectionmanager.js:362
+t.getStats @ peerconnectionmanager.js:362
+t.getStats @ room.js:563
+(anonymous) @ room.js:721
+15:41:04.097 log.js:162 2023-12-06T21:41:04.097Z debug [MediaSignaling #1:network_quality] Incoming:  {local: {…}, type: 'network_quality'}
+15:41:04.872 log.js:162 2023-12-06T21:41:04.872Z info [Room #1: RM48cb1a6b91a344942c2c0d41e3511963] Disconnecting
+15:41:04.873 log.js:162 2023-12-06T21:41:04.873Z debug [LocalParticipant #1: PA45a5ce7232b855d502d7ea9d262fcbfd] Transitioned to state: disconnected
+15:41:04.873 log.js:162 2023-12-06T21:41:04.873Z debug [LocalParticipant #1: PA45a5ce7232b855d502d7ea9d262fcbfd] Removing Track event reemitters
+15:41:04.873 log.js:162 2023-12-06T21:41:04.873Z debug [LocalParticipant #1: PA45a5ce7232b855d502d7ea9d262fcbfd] Transitioned to state: disconnected
+15:41:04.874 log.js:162 2023-12-06T21:41:04.873Z debug [LocalParticipant #1: PA45a5ce7232b855d502d7ea9d262fcbfd] Removing LocalTrack event listeners
+15:41:04.875 log.js:162 2023-12-06T21:41:04.875Z info [LocalParticipant #1: PA45a5ce7232b855d502d7ea9d262fcbfd] LocalParticipant disconnected. Stopping 0 automatically-acquired LocalTracks
+15:41:04.875 log.js:162 2023-12-06T21:41:04.875Z info [Room #1: RM48cb1a6b91a344942c2c0d41e3511963] Transitioned to state: disconnected
+15:41:04.877 log.js:162 2023-12-06T21:41:04.877Z info [LocalAudioTrack #2: 2564f4e7-1447-4778-a95d-ea23c7302645] Cleaning up the listener to restart the LocalAudioTrack if the default device changes
+15:41:04.877 log.js:162 2023-12-06T21:41:04.877Z info [LocalAudioTrack #2: 2564f4e7-1447-4778-a95d-ea23c7302645] Stopping
+15:41:04.877 log.js:162 2023-12-06T21:41:04.877Z debug [LocalAudioTrack #2: 2564f4e7-1447-4778-a95d-ea23c7302645] Ended
+15:41:04.878 log.js:162 2023-12-06T21:41:04.878Z info [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] Stopping
+15:41:04.879 log.js:162 2023-12-06T21:41:04.879Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] Ended
+15:41:04.881 log.js:162 2023-12-06T21:41:04.880Z info [LocalParticipant #1: PA45a5ce7232b855d502d7ea9d262fcbfd] Removed a VideoTrack: 2803e946-60fb-488b-96e5-5fa0f83b026d
+15:41:04.882 log.js:162 2023-12-06T21:41:04.882Z debug [LocalParticipant #1: PA45a5ce7232b855d502d7ea9d262fcbfd] VideoTrack: t {kind: 'video', name: 'camera-1701898775336', processedTrack: CanvasCaptureMediaStreamTrack, …}
+15:41:04.883 log.js:162 2023-12-06T21:41:04.883Z info [LocalParticipant #1: PA45a5ce7232b855d502d7ea9d262fcbfd] Removed a VideoTrackPublication: MT95389972a1a8fcd07d8834cd64d12247
+15:41:04.883 log.js:162 2023-12-06T21:41:04.883Z debug [LocalParticipant #1: PA45a5ce7232b855d502d7ea9d262fcbfd] VideoTrackPublication: t {trackName: 'camera-1701898775336', trackSid: 'MT95389972a1a8fcd07d8834cd64d12247', kind: 'video', …}
+15:41:04.884 log.js:162 2023-12-06T21:41:04.884Z info [LocalParticipant #1: PA45a5ce7232b855d502d7ea9d262fcbfd] Removed a AudioTrack: 2564f4e7-1447-4778-a95d-ea23c7302645
+15:41:04.884 log.js:162 2023-12-06T21:41:04.884Z debug [LocalParticipant #1: PA45a5ce7232b855d502d7ea9d262fcbfd] AudioTrack: t {kind: 'audio', name: '2564f4e7-1447-4778-a95d-ea23c7302645', processedTrack: null, …}
+15:41:04.884 log.js:162 2023-12-06T21:41:04.884Z info [LocalParticipant #1: PA45a5ce7232b855d502d7ea9d262fcbfd] Removed a AudioTrackPublication: MT72ca5667129601ff2c9f7db972abd2d4
+15:41:04.884 log.js:162 2023-12-06T21:41:04.884Z debug [LocalParticipant #1: PA45a5ce7232b855d502d7ea9d262fcbfd] AudioTrackPublication: t {trackName: '2564f4e7-1447-4778-a95d-ea23c7302645', trackSid: 'MT72ca5667129601ff2c9f7db972abd2d4', kind: 'audio', …}
+15:41:04.884 log.js:162 2023-12-06T21:41:04.884Z info [connect #1] Disconnected from Room: [Room #1: RM48cb1a6b91a344942c2c0d41e3511963]
+15:41:04.885 log.js:162 2023-12-06T21:41:04.885Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"body":{"session":"71dee4c89cc6f80ac9f71d69b00255c248cb1a6b91a344942c2c0d41e351196345a5ce7232b855d502d7ea9d262fcbfd49c605a284523e548351f024b1a6cfa7","type":"disconnect","version":2},"type":"msg"}
+15:41:04.886 log.js:162 2023-12-06T21:41:04.886Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Outgoing: {"type":"bye"}
+15:41:04.887 log.js:162 2023-12-06T21:41:04.887Z debug [TwilioConnection #1: wss://global.vss.twilio.com/signaling] Closed
+15:41:04.888 log.js:162 2023-12-06T21:41:04.888Z info [connect #1] event {elapsedTime: 81742, group: 'signaling', level: 'info', name: 'closed', timestamp: 1701898864888, …}
+15:41:04.928 log.js:162 2023-12-06T21:41:04.928Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] Attempting to detach from elements: [video.jss162]
+15:41:04.954 log.js:162 2023-12-06T21:41:04.954Z info [MediaSignaling #5:track_switch_off] Tearing down
+15:41:04.954 log.js:162 2023-12-06T21:41:04.954Z info [MediaSignaling #1:network_quality] Tearing down
+15:41:04.955 log.js:162 2023-12-06T21:41:04.955Z info [MediaSignaling #4:track_priority] Tearing down
+15:41:04.955 log.js:162 2023-12-06T21:41:04.955Z info [MediaSignaling #3:publisher_hints] Tearing down
+15:41:04.955 log.js:162 2023-12-06T21:41:04.955Z info [MediaSignaling #2:render_hints] Tearing down
+15:41:04.955 log.js:162 2023-12-06T21:41:04.955Z info [MediaSignaling #0:active_speaker] Tearing down
+15:41:04.957 log.js:162 2023-12-06T21:41:04.957Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] VideoTrack is not publishing and there is no attached element.
+15:41:04.957 log.js:162 2023-12-06T21:41:04.957Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] VideoProcessor:stop {message: 'VideoTrack is not publishing and there is no attached element.', captureHeight: 720, captureWidth: 1280, inputFrameRate: 24, isRemoteVideoTrack: 'false', …}
+15:41:04.957 log.js:162 2023-12-06T21:41:04.957Z info [connect #1] event {elapsedTime: 81811, group: 'video-processor', level: 'info', name: 'stop', timestamp: 1701898864957, …}
+15:41:04.957 log.js:162 2023-12-06T21:41:04.957Z debug [LocalVideoTrack #1: 2803e946-60fb-488b-96e5-5fa0f83b026d] Cannot capture frames. Stopping capturing frames.
